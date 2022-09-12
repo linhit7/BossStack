@@ -54,10 +54,10 @@
                 <div class="box-body">
 
                     <div class="row">
-                        <div class="col-md-4 col-12">
+                        <div class="col-md-6 col-12">
                             <div class="panel panel-default card-price-list">
                                 <div class="panel-heading">
-                                    <p class="name"><b>Gói Cá nhân</b></p>
+                                    <p class="name"><b>Gói Standard Cá nhân</b></p>
                                     <p class="percent"><span>99.000</span><br>đồng/tháng</p>
                                 </div>
                                 <div class="panel-body">
@@ -86,7 +86,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-12">
+                        <div class="col-md-4 col-12" style="display: none;">
                             <div class="panel panel-default card-price-list">
                                 <div class="panel-heading">
                                     <p class="name"><b>Gói Doanh nghiệp</b></p>
@@ -122,11 +122,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-12">
+                        <div class="col-md-6 col-12">
                             <div class="panel panel-default card-price-list">
                                 <div class="panel-heading">
-                                    <p class="name"><b>Gói VIP</b></p>
-                                    <p class="percent"><span>999.000</span><br>đồng/năm</p>
+                                    <p class="name"><b>Gói VIP Cá nhân</b></p>
+                                    <p class="percent"><span>999.000</span><br>đồng/tháng</p>
                                     <!-- <p class="discount">
                                         <span><small>8.580.000</small></span>
                                         <span><small style="padding-left: 10px;"><font color="red"><b>-43%</b></font></small></span>

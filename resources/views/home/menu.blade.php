@@ -74,13 +74,13 @@
 <div class="header-top">
     <div class="container">
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-lg-2 col-xl-2">
                 <div class="logo-fund">
                     <a href="https://bossstack.vn/"><img src="{{ asset('img/logo-bossstack.png') }}"></a>
                 </div>
             </div>
 
-            <div class="col-md-8">
+            <div class="col-lg-7 col-xl-8">
                 <div class="menu-fund">
                     <ul>
                         <!-- <li><a href="{{ route('about-us') }}">Về chúng tôi</a></li>
@@ -108,7 +108,7 @@
                 </div>
             </div>
 
-            <div class="col-md-2">
+            <div class="col-lg-3 col-xl-2">
                 <ul class="language">
                     <li class="sign-in">
                         <a href="{{ route('login') }}" style="color: #2D5DA9; font-weight: bold;">Đăng nhập</a>

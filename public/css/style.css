@@ -18,7 +18,7 @@ h6,
 .h5,
 .h6 {
   font-family: "Roboto", sans-serif !important;
-  color: #312f90;
+  color: #2D5DA9;
 }
 
 h1,
@@ -44,7 +44,7 @@ h4,
 h5,
 .h5 {
   font-size: 16px;
-  color: #312f90;
+  color: #2D5DA9;
 }
 
 h6,
@@ -77,7 +77,8 @@ div.wrapper {
 div.box,
 div.box.box-primary,
 div.box.box-default {
-  border-top-color: #283b91;
+  border-top: none;
+  background-color: #F4F5F7;
 }
 
 .box-body > .table {
@@ -491,6 +492,7 @@ textarea.form-control,
   display: flex;
   align-items: center;
   column-gap: 5px;
+  margin-bottom: 38px;
 }
 
 .banner-dashboard h5 img {
@@ -499,24 +501,31 @@ textarea.form-control,
 
 .banner-dashboard .banner-icon {
   display: flex;
-  align-items: center;
-}
-
-.banner-dashboard .banner-icon .icon {
-  width: 100px;
-  height: 100px;
+  column-gap: 57px;
 }
 
 .banner-icon .icon a {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
 }
 
-.banner-icon .icon img {
-  width: 100%;
-  height: 100%;
-  display: inline-block;
+.banner-icon .icon .banner-img{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
   background-color: #2d5da9;
+}
+
+.banner-icon .icon p{
+  font-size: 14px;
+  color: #3C4248;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 #linechart_material {
@@ -645,19 +654,6 @@ table tr td {
 }*/
 
 @media only screen and (min-width: 769px) and (max-width: 1440px) {
-  .banner-dashboard .banner-icon {
-    width: 90%;
-    margin-top: calc(-75px / 2);
-  }
-
-  .banner-dashboard .banner-icon .icon img {
-    max-width: 75px;
-  }
-
-  .banner-dashboard .banner-icon .icon h3 {
-    /*font-size: 16px;*/
-    display: none;
-  }
 }
 
 @media only screen and (max-width: 768px) {

@@ -173,10 +173,6 @@ p {
     width: 96%;
   }
 
-  .menu-fund ul li {
-    width: calc(100% / 4);
-  }
-
   .menu-fund ul li a span {
     display: none;
   }
@@ -901,6 +897,12 @@ p {
   color: #fff;
 }
 
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  #main-fund .card-price-list .card-body {
+    padding: 21px 5px 40px;
+  }
+}
+
 @media only screen and (min-width: 576px) and (max-width: 1023px) {
   #main-fund .card-price-list .card-header {
     padding: 26px 10px 16px;
@@ -1107,10 +1109,6 @@ p {
 } */
 
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
-  #footer-fund footer .menu-footer {
-    padding: 0 15px;
-  }
-
   #footer-fund footer p {
     font-size: 14px !important;
   }
@@ -2093,6 +2091,7 @@ p {
 }
 
 .tutorial-navTab .tab-content .tab-pane h4,
+.tutorial-navTab .tab-content .tab-pane h5,
 .tutorial-navTab .tab-content .tab-pane ul li {
   color: #2a5caa;
 }
@@ -2283,6 +2282,7 @@ p {
 
 .element-useful-information .useful-information .useful-information-content h5 {
   font-weight: bold;
+  color: #2a5caa;
 }
 
 .element-useful-information .useful-information .useful-information-content p {
@@ -2296,6 +2296,14 @@ p {
   list-style-type: decimal;
   padding-left: 30px;
 }
+
+.element-useful-information
+  .useful-information
+  .useful-information-content
+  .list
+  li{
+    color: #2a5caa;
+  }
 
 .element-useful-information
   .useful-information

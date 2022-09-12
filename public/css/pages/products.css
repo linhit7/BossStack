@@ -267,41 +267,46 @@ input[type=file].file_record_add + label strong{
 
 /* ---------------------------------------- */
 
+.box-dashboard.box-customer h3{
+  margin-top: 0;
+}
+
+.title-2{
+  display: flex;
+  justify-content: flex-end;
+}
+
 .filter-date {
+  width: 40%;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .filter-date .items:nth-child(2n + 1) {
   color: #2a5caa;
-  align-self: center;
 }
 
 .filter-date .items:nth-child(2n) {
-  flex-basis: calc(calc(60% / 2) - 5px);
-}
-
-.filter-date .items:nth-child(1) {
-  flex-basis: calc(25% - 5px);
-}
-
-.filter-date .items:nth-child(3) {
-  text-align: center;
-  flex-basis: calc(5% - 5px);
+  width: calc(50% / 2);
 }
 
 .filter-date .items label {
   margin-bottom: 0;
 }
 
-.filter-date .items:last-child {
-  flex-basis: calc(10% - 5px);
+.filter-date .items:last-child button.btn-search {
+  color: #fff;
+  background-color: #2D5DA9; 
+  padding: 6px 39px;
+  border: none;
 }
 
-.filter-date .items:last-child button {
-  width: 100%;
+.filter-date .items:last-child button.btn-search:hover{
+  color: #fff;
+  background-color: #2D5DA9; 
 }
 
 .filter-date .items:last-child button .icon {
@@ -328,12 +333,6 @@ input[type=file].file_record_add + label strong{
   margin: 0;
 }
 
-.box-dashboard.box-customer .my-cash,
-.box-dashboard.box-customer .my-assets,
-.box-dashboard.box-customer .my-invest {
-  padding: 20px 0;
-}
-
 .box-dashboard.box-customer .my-cash #chart5,
 .box-dashboard.box-customer .my-cash #chart5_mb,
 .box-dashboard.box-customer .my-assets #chart6,
@@ -342,22 +341,6 @@ input[type=file].file_record_add + label strong{
   background-color: #eeeeee;
   border: 1px solid #b7b7b7;
   border-radius: 5px;
-}
-
-.box-dashboard.box-customer .title-myAssets {
-  margin-top: 20px;
-}
-
-.box-dashboard.box-customer .title-myAssets h3 {
-  margin: 0;
-}
-
-.box-dashboard.box-customer .title-myAssets .filter-date > .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
 }
 
 .box-dashboard.box-customer .my-invest #chart7 .c3-chart-arcs-title {
@@ -412,6 +395,19 @@ input[type=file].file_record_add + label strong{
   font-size: 12px;
   font-family: "Roboto", sans-serif;
 }
+
+.box-dashboard.box-customer .view-detail{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box-dashboard.box-customer .view-detail a{
+  display: inline-block;
+  padding: 6px 24px;
+  color: #2D5DA9;
+  border: 1px solid #2D5DA9;
+  margin-top: 27px;
+} 
 
 /*@media only screen and (min-width: 992px){
     .filter-date .items:nth-child(1){
@@ -527,7 +523,8 @@ input[type=file].file_record_add + label strong{
 }*/
 
 .box-customer .box-body {
-  color: #070426;
+  padding: 30px 20px;
+  background-color: #E7EAED;
 }
 
 .box-customer .box-body .c3-tooltip {
@@ -659,9 +656,13 @@ input[type=file].file_record_add + label strong{
 
 .box-customer .financial-planning .financial-planning-list .wrap {
   width: 8000px;
+  display: flex;
+  align-items: flex-start;
+  column-gap: 15px;
+  padding-bottom: 15px;
 }
 
-.box-customer .financial-planning .financial-planning-item {
+/* .box-customer .financial-planning .financial-planning-item {
   width: 300px;
   background-color: #e6e6e6;
   border: none;
@@ -669,6 +670,14 @@ input[type=file].file_record_add + label strong{
   padding: 5px 15px;
   margin: 0 15px;
   float: left;
+} */
+
+.box-customer .financial-planning .financial-planning-item {
+  width: 300px;
+  background-color: #e6e6e6;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
 }
 
 .box-customer .financial-planning .financial-planning-item h4 {
@@ -1023,7 +1032,7 @@ input[type=file].file_record_add + label strong{
 /* ----------------- Ä?Ä‚NG KÃ? Dá»ŠCH Vá»¤ ----------------- */
 
 .card-price-list {
-  border: 2px solid #1b1464;
+  border: 2px solid #6f818c;
   border-radius: 20px;
   margin: 0 auto;
 }
@@ -1034,7 +1043,7 @@ input[type=file].file_record_add + label strong{
 
 .card-price-list .panel-heading {
   border: none;
-  border-bottom: 2px solid #6d44bc;
+  border-bottom: 2px solid #6f818c;
   background-color: #fff;
   border-radius: 20px;
   border-bottom-right-radius: 0;
@@ -1044,17 +1053,19 @@ input[type=file].file_record_add + label strong{
 }
 
 .card-price-list .panel-heading .name {
-  color: #eba134;
+  font-size: 18px;
+  color: #6f818c;
 }
 
 .card-price-list .panel-heading .percent {
   font-size: 13px !important;
   font-weight: bold;
-  color: red;
+  color: #6f818c;
 }
 
 .card-price-list .panel-heading .percent span {
   font-size: 40px;
+  color: #d53300;
 }
 
 .card-price-list .panel-heading .discount {
@@ -1082,6 +1093,7 @@ input[type=file].file_record_add + label strong{
   padding: 13px 10px;
   text-align: center;
   font-size: 15px;
+  color: #6f818c;
 }
 
 .card-price-list .panel-footer {
@@ -1098,14 +1110,17 @@ input[type=file].file_record_add + label strong{
   padding: 10px;
   font-size: 18px;
   transition: all 0.8s linear 0s;
-  background-color: rgba(235, 161, 52);
-  border: 2px solid #fff;
+  background-color: #fdb913;
+  border: 0;
+  color: #2a5caa;
+  font-weight: bold;
+  margin-top: 5px;
 }
 
 .card-price-list .panel-footer a.btn-buy:hover {
-  background-color: rgba(255, 255, 255);
-  border: 2px solid #eba134;
-  color: #eba134;
+  background-color: #2a5caa;
+  border: 0;
+  color: #fff;
 }
 
 /* ----------------- TÃ€I KHOáº¢N ----------------- */

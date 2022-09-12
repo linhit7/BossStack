@@ -45,7 +45,7 @@
 						</li>
 					</ul>
 
-					<p>Thấu hiểu những rắc rối của bạn trên con đường tìm cách tăng trưởng dòng tiền cá nhân ứng với mỗi giai đoạn cuộc đời, phần mềm BossStack Coaching cung cấp các sản phẩm giúp bạn dễ dàng hơn trong việc quản lý dòng tiền cá nhân của mình. Ghé xem danh mục Dòng Tiền Cá Nhân tại mục sản phẩm của hệ thống BossStack Coaching (<a href="https://bossstack.edu.vn/personalcash">Tại đây</a>) ngay nhé.</p>
+					<p>Thấu hiểu những rắc rối của bạn trên con đường tìm cách tăng trưởng dòng tiền cá nhân ứng với mỗi giai đoạn cuộc đời, phần mềm BossStack Coaching cung cấp các sản phẩm giúp bạn dễ dàng hơn trong việc quản lý dòng tiền cá nhân của mình. Ghé xem danh mục Dòng Tiền Cá Nhân tại mục sản phẩm của hệ thống BossStack Coaching (<a href="https://bossstack.vn/personalcash">Tại đây</a>) ngay nhé.</p>
 				</div>
 			</div>
 

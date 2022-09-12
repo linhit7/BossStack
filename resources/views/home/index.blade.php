@@ -46,7 +46,7 @@
         <div class="banner-home-fund">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5 col-12">
+                    <div class="col-md-6 col-xl-5 col-12">
                         <div class="banner-home-fund-left">
                             <div class="align-self-center">
                                 <!-- <img src="{{ asset('img/text-1-w.png') }}"> -->
@@ -60,7 +60,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-7 col-12 mt-5 mt-sm-0">
+                    <div class="col-md-6 col-xl-7 col-12 mt-5 mt-sm-0">
                         <img src="{{ asset('img/home-banner-right.png') }}" width="100%">
                     </div>
                 </div>

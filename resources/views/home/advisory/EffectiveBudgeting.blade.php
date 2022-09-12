@@ -41,7 +41,7 @@
 
 							<p>Khi rà soát lại bảng chi tiêu, những khoản tiền thâm hụt đã lộ diện nhưng chúng ta chỉ dừng lại ở việc xem xét chúng mà không có giải pháp cho chúng. Khi đã lên kế hoạch chi tiêu việc kiểm soát chi phí phát sinh, chi phí ẩn không chỉ dừng lại ở việc bạn tìm ra mà phải đưa ra giải pháp và phải hạn chế đến mức có thể được. Khi bạn chuyển công việc, thay đổi nơi ở, kết hôn, tham gia thêm một lĩnh vực khác ngoài giờ làm,... sẽ có nhiều sự kiện sẽ làm chi phí phát sinh. Bạn cần có kế hoạch cho những khoản chi đó được tính toán trong ngân sách. Kiểm soát và điều chỉnh kế hoạch theo thực tế là một điều không thể tránh khỏi.</p>
 
-							<p>Thấu hiểu nguyên tắc: “Có lỗ hổng chi tiêu sẽ tạo ra nợ, muốn giảm được nợ cần cắt giảm chi phí hoặc tăng thu nhập”, <b>BossStack</b> cung cấp bộ giải pháp giúp bạn kiểm soát các lỗ hỏng của mình và cân đối thu chi hiệu quả. Từ đó gợi ý những giải pháp giúp bạn gia tăng thu nhập, từng bước đạt được con đường tự do tài chính của mình. Tham khảo ngay gói sản phẩm của <b>BossStack</b> (<a href="https://bossstack.edu.vn/personalcash">Tại đây</a>).</p>
+							<p>Thấu hiểu nguyên tắc: “Có lỗ hổng chi tiêu sẽ tạo ra nợ, muốn giảm được nợ cần cắt giảm chi phí hoặc tăng thu nhập”, <b>BossStack</b> cung cấp bộ giải pháp giúp bạn kiểm soát các lỗ hỏng của mình và cân đối thu chi hiệu quả. Từ đó gợi ý những giải pháp giúp bạn gia tăng thu nhập, từng bước đạt được con đường tự do tài chính của mình. Tham khảo ngay gói sản phẩm của <b>BossStack</b> (<a href="https://bossstack.vn/personalcash">Tại đây</a>).</p>
 						</li>
 					</ul>
 				</div>

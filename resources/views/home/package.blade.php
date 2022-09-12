@@ -2,7 +2,7 @@
 {{ csrf_field() }}
 <input type='hidden' name='typereport' value=''>
 <div class="row">
-    <div class="col-xl-4 col-md-6 col-12 mb-md-3">
+    <div class="col-xl-4 col-md-4 col-12 mb-md-3">
         <div class="card card-price-list">
             <div class="card-header">
                 <p class="name"><b>Mở Tài khoản</b></p>
@@ -23,7 +23,7 @@
             </div>
         </div>
     </div>
-    <div class="col-xl-4 col-md-6 col-12 mb-md-3">
+    <div class="col-xl-4 col-md-4 col-12 mb-md-3">
         <div class="card card-price-list">
             <div class="card-header">
                 <p class="name"><b>Gói Standard Cá nhân</b></p>
@@ -91,7 +91,7 @@
             </div>
         </div>
     </div>
-    <div class="col-xl-4 col-md-6 col-12">
+    <div class="col-xl-4 col-md-4 col-12">
         <div class="card card-price-list">
             <div class="card-header">
                 <p class="name"><b>Gói VIP Cá nhân</b></p>

@@ -60,8 +60,6 @@
 							<p>Việc đầu tư giúp bảo vệ số tiền của bạn khỏi tình trạng lạm phát. Chắc chắn lãi suất sẽ thấp trong nhiều năm, nhưng lãi suất trung bình năm của thị trường chứng khoán rất có thể sẽ vượt qua mức lạm phát. Chúng ta biết được điều này bởi vì đã có những dữ liệu trong nhiều thập kỷ, và thậm chí nếu tính cả những năm tồi tệ, nó vẫn đạt đến mức trung bình để đánh bại lạm phát.</p>
 						</li>
 					</ul>
-
-					<p>Tham khảo thêm các thông tin về Dòng Tiền Cá Nhân (<a href="https://www.facebook.com/groups/DONGTIENCANHAN">Tại đây</a>).</p>
 				</div>
 			</div>
 

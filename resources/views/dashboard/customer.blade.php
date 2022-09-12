@@ -32,77 +32,71 @@
 			<div class="icon">
 				<a href="{{ route('cash-index') }}" title="CẬP NHẬT THU CHI VÍ TỔNG">
 					<div class="banner-img"><img src="{{ asset('img/dashboard-1.png') }}"></div>
-					<p>Cập nhật thu chi ví tổng</p>
+					<p>Cập nhật thu chi<br/>ví tổng</p>
 				</a>
 			</div>
 
             <div class="icon">
                 <a href="{{ route('invests-index') }}" title="ĐẦU TƯ">
-                    <img src="{{ asset('img/dashboard-2.png') }}">
+                    <div class="banner-img"><img src="{{ asset('img/dashboard-2.png') }}"></div>
                     <p>Đầu tư</p>
                 </a>
             </div>
 
 			<div class="icon">
 				<a href="{{ route('cash-process') }}" title="DÒNG TIỀN CÁ NHÂN">
-					<img src="{{ asset('img/dashboard-3.png') }}">
-					<p>Dòng tiền cá nhân</p>
+                    <div class="banner-img"><img src="{{ asset('img/dashboard-3.png') }}"></div>
+					<p>Dòng tiền<br/>cá nhân</p>
 				</a>
 			</div>
 
 			<div class="icon">
 				<a href="{{ route('cashassets-index') }}" title="THEO DÕI DANH MỤC TÀI SẢN">
-					<img src="{{ asset('img/dashboard-4.png') }}">
-					<p>Theo dõi danh mục tài sản</p>
+                    <div class="banner-img"><img src="{{ asset('img/dashboard-4.png') }}"></div>
+					<p>Theo dõi danh<br/>mục tài sản</p>
 				</a>
 			</div>
 		</div>
 	</div>
 
-	<div class="col-md-12">
-
-		<div class="box box-dashboard box-customer" style="padding-top: 0px; margin-top: 20px;">
+	<div class="col-md-12" style="padding: 0;">
+		<div class="box box-dashboard box-customer" style="padding-top: 0px; margin-bottom: 38px;">
 			<div class="box-body">
-
-				<div class="title clearfix">
-					<div class="row">
-						<div class="col-lg-6 col-md-4 col-xs-12" style="align-self: center;">
-							<div class="title-1">
-								<h3><b>DÒNG TIỀN CỦA TÔI</b></h3>
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-8 col-xs-12" style="align-self: center;">
-							<div class="title-2">
-	                        	<div class="filter-date">
-                                    <div class="items">
-                                        <label>Thời gian từ:</label>
-	                        		</div>
-	                        		<div class="items">
-                                        <input type='text' class="form-control" name="fromDate" id='fromDate' value="{{ old('fromDate') == "" ? $fromDate : old('fromDate') }}"/>
-	                        		</div>
-	                        		<div class="items">
-	                        			<label style="color: #2d3194; text-align: center;">đến:</label>
-	                        		</div>
-	                        		<div class="items">
-                                        <input type='text' class="form-control" name="toDate" id='toDate' value="{{ old('toDate') == "" ? $toDate : old('toDate') }}"/>
-	                        		</div>
-	                        		<div class="items">
-				                        <button class="btn btn-primary btn-search" style="background-color: #ff7f0e; border: 1px solid #ff7f0e;">
-                                            <span class="text">Lọc</span>
-                                            <span class="icon"><i class="fa fa-search" aria-hidden="true"></i></span>
-                                        </button>
-				                    </div>
-	                        	</div>
-		                    </div>
-						</div>
-					</div>
+				<div class="title">
+                    <h3><b>DÒNG TIỀN CỦA TÔI</b></h3>
+                    <div class="title-2">
+                        <div class="filter-date">
+                            <div class="items">
+                                <label>Thời gian từ:</label>
+                            </div>
+                            <div class="items">
+                                <input type='text' class="form-control" name="fromDate" id='fromDate' value="{{ old('fromDate') == "" ? $fromDate : old('fromDate') }}"/>
+                            </div>
+                            <div class="items">
+                                <label style="color: #2D5DA9; text-align: center;">đến:</label>
+                            </div>
+                            <div class="items">
+                                <input type='text' class="form-control" name="toDate" id='toDate' value="{{ old('toDate') == "" ? $toDate : old('toDate') }}"/>
+                            </div>
+                            <div class="items">
+                                <button class="btn btn-primary btn-search">
+                                    <span class="text">Lọc</span>
+                                    <span class="icon"><i class="fa fa-search" aria-hidden="true"></i></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
 				</div>
+
 				<div class="my-cash">
                     <div id="chart5"></div>
 				</div>
+			</div>
+		</div>
 
-				<h3><b>VÍ MỤC TIÊU TÀI CHÍNH</b></h3>
-
+        <div class="box box-dashboard box-customer" style="padding-top: 0px; margin-bottom: 38px;">
+            <div class="box-body">
+                <h3><b>VÍ MỤC TIÊU TÀI CHÍNH</b></h3>
                 <div class="financial-planning">
                     <div class="row">
                         <div class="col-md-12" style="text-align: right;">
@@ -123,10 +117,9 @@
                             @endphp  
                             @foreach($listcashplans as $item)
                                 <div class="financial-planning-item">
-                                    
                                     <table width="100%" style="display: none;">
                                         <tbody>
-                                        	<tr style="border-top: 0; border-bottom: 0;">
+                                            <tr style="border-top: 0; border-bottom: 0;">
                                                 <th colspan="2" width="100%"><h4><b>VÍ {{ mb_strtoupper($plantypes[$item->plantype]) }}</b></h6></th>
                                             </tr>
                                             <tr style="border-top: 0;">
@@ -194,14 +187,17 @@
                             @endforeach
                         </div>
                     </div>
-                </div>
 
-                <div class="title-myAssets">
-                	<div class="row">
-                		<div class="col-md-6 col-xs-8"><h3><b>THEO DÕI CÁC TÀI SẢN</b></h3></div>
-                        <div class="col-md-6 col-xs-4" style="text-align: right;"><a href="{{ route('cashassets-index') }}" target="blank">Xem chi tiết &gt;&gt;</a></div>
-                	</div>
+                    <div class="view-detail">
+                        <a href="{{ route('cashplans-index') }}" target="_blank">Xem chi tiết <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="box box-dashboard box-customer">
+			<div class="box-body">
+                <h3><b>THEO DÕI CÁC TÀI SẢN</b></h3>
                 
                 <div class="my-assets">
                     <div class="row">
@@ -226,7 +222,9 @@
                     </div>
 				</div>
 
-
+                <div class="view-detail">
+                    <a href="{{ route('cashassets-index') }}" target="_blank">Xem chi tiết <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
 			</div>
 		</div>
 	</div>

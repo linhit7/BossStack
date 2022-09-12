@@ -54,7 +54,7 @@
 						<h4><b>Bước 1: Đăng ký thông tin</b></h4>
 
 						<div class="ml-3">
-							<p>Để bắt đầu sử dụng dịch vụ của chúng tôi, bạn có thể đăng ký tài khoản thông qua trang <a href="https://bossstack.edu.vn/login">Đăng nhập BossStack</a> / <a href="https://bossstack.edu.vn/registerCustomer">Đăng ký BossStack</a>.</p>
+							<p>Để bắt đầu sử dụng dịch vụ của chúng tôi, bạn có thể đăng ký tài khoản thông qua trang <a href="https://bossstack.vn/login">Đăng nhập BossStack</a> / <a href="https://bossstack.vn/registerCustomer">Đăng ký BossStack</a>.</p>
 
 							<p>Bạn nhập các thông tin yêu cầu, chọn dịch vụ sản phẩm mình muốn sử dụng và nhấn “Đăng ký”. Ngoài các thông tin có dấu * là các thông tin bắt buộc phải điền, bạn có thể điền đầy đủ các thông tin khác để chúng tôi có thể hỗ trợ bạn tốt nhất.</p>
 
@@ -106,7 +106,7 @@
 					</div>
 
 					<div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
-						<p>Sau khi nhận được email kích hoạt tài khoản hoàn tất đăng ký của chúng tôi, bạn có thể vào trang <a href="https://bossstack.edu.vn/login">Đăng nhập</a> tài khoản của mình để bắt đầu sử dụng hệ thống.</p>
+						<p>Sau khi nhận được email kích hoạt tài khoản hoàn tất đăng ký của chúng tôi, bạn có thể vào trang <a href="https://bossstack.vn/login">Đăng nhập</a> tài khoản của mình để bắt đầu sử dụng hệ thống.</p>
 
 						<img src="{{ asset('img/advisory-8.jpg') }}">
 
@@ -278,7 +278,7 @@
 	<section class="element-section element-bg-1 element-form-support">
 		<div class="container">
 
-			<h1 class="mb-5"><font size="6" color="#1a1f53">HỖ TRỢ TƯ VẤN</font></h1>
+			<h1 class="mb-5"><font size="6" color="#2a5caa">HỖ TRỢ TƯ VẤN</font></h1>
 
 			<div class="form-support-text mb-3">
 				<p>Nếu khách hàng có nhu cầu tư vấn gia tăng dòng tiền cá nhân, xin vui lòng liên hệ:</p>

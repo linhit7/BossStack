@@ -35,8 +35,6 @@
 
 					<p><b>Quỹ</b>: Một quỹ thường chứa hàng chục đến hàng trăm loại chứng khoán khác nhau. Nếu bạn thích những gì có trong quỹ, bạn có thể mua cổ phiếu của quỹ đó và bạn sẽ trở thành chủ sở hữu một phần nhỏ của tất cả các loại cổ phiếu có trong quỹ. Điều này giúp bạn đa dạng hóa danh mục đầu tư của mình ngay lập tức dù bạn chỉ mua của một quỹ mà thôi.</p>
 
-					<p>Cập nhật thông tin về đầu tư và tài chính cá nhân (<a href="https://www.facebook.com/1-Ph%C3%BAt-H%E1%BB%8Dc-T%C3%A0i-Ch%C3%ADnh-M%E1%BB%97i-Ng%C3%A0y-C%C3%B9ng-Emma-Pham-106304038086123">Tại đây</a>).</p>
-
 					<!-- <ul class="list" style="list-style-type: square;">
 						<li><b>Cổ phiếu</b>: Khi một công ty cần tiền để phục vụ cho những hoạt động phát triển kinh doanh, công ty đó sẽ rao bán cổ phần của họ. Những cổ phần này được gọi là cổ phiếu. Khi mua cổ phần, về bản chất bạn đã sở hữu một phần của công ty đó, còn gọi là vốn sở hữu trong công ty.<br> Cổ phiếu có thể được mua, bán thông qua sàn giao dịch chứng khoán. Nếu công ty hoạt động tốt, giá cổ phiếu của công ty sẽ tăng vì nhiều nhà đầu tư sẵn sàng trả giá cao để được sở hữu cổ phần. Nhưng nếu hoạt động của công ty đó đình trệ thì giá cổ phiếu của nó cũng vậy.</li>
 
