@@ -1,0 +1,3004 @@
+h1,
+h2,
+h3 {
+  color: #3c4248;
+  font-weight: bold !important;
+}
+
+p {
+  font-size: 18px !important;
+  color: #6f818c;
+}
+
+#header-fund {
+  position: relative;
+}
+
+.btn-send,
+.btn-recruitment-detail,
+.btn-pay {
+  color: #fff;
+  background-color: #2a5caa;
+  border-color: #2a5caa;
+  padding: 0.375rem 1.75rem;
+}
+
+.btn-send:hover,
+.btn-recruitment-detail:hover,
+.btn-pay:hover {
+  color: #2a5caa;
+  background-color: #fff;
+  border-color: #2a5caa;
+}
+
+.btn-recruitment {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  padding: 0.375rem 1.75rem;
+}
+
+.btn-recruitment:hover {
+  color: #fff;
+}
+
+#main-fund {
+  position: relative;
+}
+
+/* Menu */
+
+.header-top {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  background-color: #fff;
+}
+
+.logo-fund {
+  height: 61px;
+  padding: 18px 0;
+}
+
+.logo-fund img {
+  width: 90%;
+}
+
+.menu-fund {
+  width: 100%;
+}
+
+.menu-fund ul {
+  margin: 0 14px;
+}
+
+.menu-fund ul,
+.language {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-fund ul li {
+  display: inline-block;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.menu-fund ul li a,
+.language li a {
+  color: #2a5caa;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+}
+
+.menu-fund ul li a:hover,
+.language li a:hover {
+  text-decoration: none;
+}
+
+.menu-fund ul li .menu-item {
+  border: 1px solid #1a1f53;
+  border-radius: 5px;
+  width: 250px;
+  background-color: #fff;
+  display: none;
+  position: absolute;
+  top: 60px;
+  /* left: 376px; */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  transition: all 1s ease-in-out 0s;
+  -webkit-transition: all 1s ease-in-out 0s;
+}
+
+.menu-fund ul li.menu:hover .menu-item {
+  display: block;
+}
+
+.menu-fund ul li .menu-item li {
+  width: 100%;
+  text-align: left;
+  padding: 10px 10px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.menu-fund ul li .menu-item li:last-child {
+  border-bottom: none;
+}
+
+.menu-fund ul li .menu-item li a {
+  color: #2a3b8e;
+}
+
+.language {
+  margin: 0;
+}
+
+.language li {
+  display: inline-block;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.language li.sign-in {
+  width: 50%;
+}
+
+.language li.sign-in a {
+  color: #000;
+  font-weight: 400;
+}
+
+.language li.select-language {
+  width: 48%;
+  padding: 0;
+}
+
+.language li.select-language .form-group {
+  margin-bottom: 0;
+}
+
+.language li.select-language .form-group .form-control {
+  font-size: 0.6rem;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .logo-fund img {
+    width: 96%;
+  }
+
+  .menu-fund ul li {
+    width: calc(100% / 4);
+  }
+
+  .menu-fund ul li a span {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1023px) {
+  .header-top-mobile .menu-mobile {
+    width: 6%;
+  }
+
+  .menu-fund ul li a span {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .header-top-mobile .menu-mobile {
+    width: 15%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+  .header-top-mobile {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: #fff;
+    -webkit-transition: all 0.8s linear 0s;
+    -moz-transition: all 0.8s linear 0s;
+    transition: all 0.8s linear 0s;
+  }
+
+  .header-top-mobile.fixed {
+    position: fixed;
+  }
+
+  .header-top-mobile .menu-mobile,
+  .header-top-mobile .logo-mobile,
+  .header-top-mobile .user-mobile {
+    display: inline-block;
+  }
+
+  .header-top-mobile .menu-mobile {
+    height: 50px;
+    position: relative;
+  }
+
+  #menuToggle {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  #menuToggle input {
+    display: flex;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+    top: -6px;
+    left: -6px;
+  }
+
+  #menuToggle span {
+    display: flex;
+    width: 29px;
+    height: 2px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #2a3b8e;
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 5px 0px;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  }
+
+  #menuToggle span:first-child {
+    transform-origin: 0% 0%;
+  }
+
+  #menuToggle span:nth-last-child(2) {
+    margin-bottom: 0;
+    transform-origin: 0% 100%;
+  }
+
+  #menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-3px, -1px);
+    background: #36383f;
+  }
+  #menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  #menuToggle input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  #menuToggle-item {
+    position: absolute;
+    height: 585px;
+    margin: -50px 0 0 -50px;
+    padding: 80px 15px 40px 50px;
+    background-color: #f5f6fa;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    list-style-type: none;
+  }
+
+  #menuToggle-item li {
+    padding: 10px 0;
+    transition-delay: 2s;
+    font-size: 15px;
+  }
+
+  #menuToggle-item li a {
+    color: #2a5caa;
+    font-weight: bold;
+  }
+
+  #menuToggle-item li a:hover {
+    text-decoration: none;
+  }
+
+  #menuToggle input:checked ~ ul {
+    transform: none;
+  }
+
+  #menuToggle-item li .menu-item {
+    list-style-type: none;
+  }
+
+  #menuToggle-item li .menu-item li:last-child {
+    padding-bottom: 0;
+  }
+
+  .header-top-mobile .logo-mobile {
+    width: 30%;
+    line-height: 0;
+  }
+
+  .header-top-mobile .logo-mobile a {
+    display: inline-block;
+  }
+
+  .header-top-mobile .logo-mobile img {
+    width: 110px;
+    vertical-align: baseline;
+    padding: 16px 0px;
+  }
+
+  .header-top-mobile .user-mobile {
+    width: 55%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+  }
+
+  .header-top-mobile .user-mobile .sign-in,
+  .header-top-mobile .user-mobile .registration {
+    color: #2a5caa;
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 6px 0;
+    text-align: right;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .header-top-mobile .user-mobile .registration {
+    color: #fff;
+    background-color: #2d5da9;
+    border-radius: 5px;
+  }
+
+  .header-top-mobile .user-mobile .sign-in:hover {
+    text-decoration: none;
+  }
+
+  .header-top-mobile .user-mobile .user {
+    text-align: right;
+    padding: 5px 5px 5px 0;
+  }
+
+  .header-top-mobile .user-mobile .user .name {
+    font-size: 15px;
+    color: #2a3b8e;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  .header-top-mobile .user-mobile .user .avatar {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+  }
+
+  .header-top-mobile .user-mobile .user .avatar img {
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #2a3b8e;
+  }
+}
+
+/* End Menu */
+
+/**** HOME PAGE ****/
+
+/* Banner */
+
+.banner-home-fund {
+  /* background-image: url(https://fiinves.vn/public/img/home-banner.png); */
+  background: linear-gradient(90deg, #2d5da9 48.18%, #282870 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 130px 0;
+}
+
+.banner-home-fund .banner-home-fund-left {
+  height: 100%;
+  display: flex;
+}
+
+.banner-home-fund .banner-home-fund-left img {
+  width: 75%;
+  margin-bottom: 15px;
+}
+
+.banner-home-fund .banner-home-fund-left h2,
+.banner-home-fund .banner-home-fund-left h1,
+.banner-home-fund .banner-home-fund-left p {
+  color: #fff;
+}
+
+.banner-home-fund .banner-home-fund-left h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.banner-home-fund .banner-home-fund-left p {
+  margin-bottom: 20px;
+}
+
+.banner-home-fund .banner-home-fund-left .button-banner .btn-banner {
+  font-size: 18px;
+  background-color: #fff;
+  border: 0;
+  color: #2a5caa;
+  border-radius: 5px;
+  padding: 10px 50px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .banner-home-fund .banner-home-fund-left h1 {
+    font-size: 37px;
+  }
+
+  .banner-home-fund .banner-home-fund-left .button-banner .btn-banner {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1023px) {
+  .banner-home-fund .banner-home-fund-left h1 {
+    font-size: 27px;
+  }
+
+  .banner-home-fund .banner-home-fund-left .button-banner .btn-banner {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .banner-home-fund .banner-home-fund-left {
+    text-align: center;
+  }
+
+  .banner-home-fund .banner-home-fund-left h1 {
+    font-size: 34px;
+  }
+
+  .banner-home-fund .banner-home-fund-left p {
+    letter-spacing: -0.5px;
+  }
+
+  .banner-home-fund .banner-home-fund-left .button-banner .btn-banner {
+    width: 100%;
+  }
+}
+
+/* End Banner */
+
+/* Banner Default */
+
+.banner-default-fund {
+  background: linear-gradient(90deg, #2d5da9 48.18%, #282870 100%);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  padding: 112px 0 50px 0;
+  text-align: center;
+}
+
+.banner-default-fund img {
+  width: 75%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .banner-default-fund {
+    background-size: cover;
+  }
+
+  .banner-default-fund h1 {
+    margin-bottom: 0;
+  }
+
+  .banner-default-fund h1 font {
+    font-size: 25px;
+  }
+
+  .banner-default-fund img {
+    width: 100%;
+  }
+}
+
+/* End Banner Default */
+
+#main-fund .element-section,
+#cotent-fund .element-section {
+  padding: 40px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* #main-fund .element-bg-1 {
+  background-image: url(https://fiinves.vn/public/img/bg-1.jpg);
+  padding: 40px 0;
+} */
+
+/* Về LAMs */
+
+#main-fund .element-bg-16 {
+  background-image: url(https://fiinves.vn/public/img/bg-16.jpg);
+  padding: 40px 0;
+}
+
+#main-fund .element-about-lams .about-lams-1 {
+  margin-top: -110px;
+}
+
+#main-fund .element-about-lams .about-lams-1 .box-1,
+#main-fund .element-about-lams .about-lams-1 .box-2,
+#main-fund .element-about-lams .about-lams-1 .box-3 {
+  width: 100%;
+  height: 140px;
+  /*border: 2px solid #1b1464;*/
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  padding: 21px 0;
+}
+
+#main-fund .element-about-lams .about-lams-1 .box-left {
+  width: 35%;
+  float: left;
+}
+
+#main-fund .element-about-lams .about-lams-1 .box-left img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+#main-fund .element-about-lams .about-lams-1 .box-right {
+  width: 65%;
+  float: right;
+}
+
+#main-fund .element-about-lams .about-lams-1 .box-right h1 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+#main-fund .element-about-lams .about-lams-2 {
+  padding-top: 30px;
+}
+
+.element-about-lams .about-lams-2 .logo img {
+  width: 40%;
+}
+
+#main-fund .element-about-lams .about-lams-2 p {
+  text-align: justify;
+}
+
+#main-fund .element-about-lams .about-lams-2 a {
+  color: #1a1f53;
+  font-weight: bold;
+  text-align: right;
+  display: block;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  #main-fund .element-about-lams .about-lams-1 {
+    margin-top: -98px;
+  }
+
+  #main-fund .element-about-lams .about-lams-1 .box-1,
+  #main-fund .element-about-lams .about-lams-1 .box-2,
+  #main-fund .element-about-lams .about-lams-1 .box-3 {
+    height: 110px;
+  }
+
+  #main-fund .element-about-lams .about-lams-1 .box-right h1 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  #main-fund .element-about-lams .about-lams-1 {
+    margin-top: 0;
+  }
+
+  .element-about-lams .about-lams-2 .logo img {
+    width: 50%;
+  }
+}
+
+/* End Về LAMs */
+
+/* TẠI SAO BẠN NÊN CHỌN CHÚNG TÔI? */
+
+#main-fund .element-why-choose-us {
+  background: linear-gradient(90deg, #2d5da9 48.18%, #282870 100%);
+}
+
+#main-fund .element-why-choose-us .why-choose-us-right img {
+  width: 90%;
+  margin-bottom: 15px;
+}
+
+#main-fund .element-why-choose-us .why-choose-us-right h3,
+#main-fund .element-why-choose-us .why-choose-us-right h4 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#main-fund .element-why-choose-us .why-choose-us-right h3 {
+  font-size: 24px;
+}
+
+#main-fund .element-why-choose-us .why-choose-us-right h4 {
+  font-size: 20px;
+}
+
+#main-fund .element-why-choose-us .why-choose-us-right ul {
+  list-style-type: none;
+  margin: 0 0 0 15px;
+  padding: 0;
+}
+
+#main-fund .element-why-choose-us .why-choose-us-right ul li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#main-fund .element-why-choose-us .why-choose-us-right ul li:last-child {
+  margin-bottom: 0px;
+}
+
+#main-fund .element-why-choose-us .why-choose-us-right ul li .icon {
+  margin-right: 20px;
+  width: 6%;
+  flex-shrink: 0;
+}
+
+#main-fund .element-why-choose-us .why-choose-us-right ul li img {
+  width: 100%;
+  margin-bottom: auto;
+}
+
+#main-fund .element-why-choose-us .why-choose-us-right ul li .text {
+  color: #fff;
+  font-size: 18px;
+  flex-grow: 1;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  #main-fund .element-why-choose-us .why-choose-us-right img {
+    width: 100%;
+  }
+
+  #main-fund .element-why-choose-us .why-choose-us-right ul {
+    margin-left: 0;
+  }
+
+  #main-fund .element-why-choose-us .why-choose-us-right ul li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* End TẠI SAO BẠN NÊN CHỌN CHÚNG TÔI? */
+
+/* Ưu điểm của hệ thống */
+
+#main-fund .element-advantages {
+  position: relative;
+}
+
+#main-fund .element-advantages .element-advantages-img {
+  background-image: url(https://fiinves.vn/public/img/advantages-system.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 1;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#main-fund .element-advantages h3,
+#main-fund .element-advantages h4 {
+  color: #3c4248;
+  margin-bottom: 20px;
+}
+
+#main-fund .element-advantages h3 {
+  font-size: 24px;
+}
+
+#main-fund .element-advantages h4 {
+  font-size: 20px;
+}
+
+#main-fund .element-advantages ul {
+  list-style-type: none;
+  margin: 0 0 0 15px;
+  padding: 0;
+}
+
+#main-fund .element-advantages ul li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#main-fund .element-advantages ul li:last-child {
+  margin-bottom: 0px;
+}
+
+#main-fund .element-advantages ul li .icon {
+  width: 6%;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+#main-fund .element-advantages ul li img {
+  width: 100%;
+}
+
+#main-fund .element-advantages ul li .text {
+  font-size: 18px;
+  color: #6f818c;
+  flex-grow: 1;
+}
+
+#main-fund .element-advantages .bg-advantages {
+  position: absolute;
+  top: -85px;
+  right: -381px;
+}
+
+#main-fund .element-advantages .bg-advantages img {
+  width: 100%;
+  height: 583px;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1023px) {
+  #main-fund .element-advantages .element-advantages-img {
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  #main-fund .element-advantages {
+    padding: 40px 0 290px 0;
+  }
+
+  #main-fund .element-advantages .element-advantages-img {
+    width: 100%;
+    background-position: bottom right;
+  }
+
+  #main-fund .element-advantages ul {
+    margin: 0;
+  }
+}
+
+/* End Ưu điểm của hệ thống */
+
+/* Bảng giá phần mềm */
+
+#main-fund .element-price-list {
+  background: linear-gradient(90deg, #2d5da9 48.18%, #282870 100%);
+}
+
+#main-fund .element-price-list h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#main-fund .card-price-list .card-header {
+  text-align: center;
+}
+
+#main-fund .card-price-list {
+  border-radius: 20px;
+  height: 741px;
+}
+
+#main-fund .card-price-list .card-header {
+  border: none;
+  border-bottom: 2px solid #6f818c;
+  background-color: #fff;
+  border-radius: 20px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 26px 30px 16px;
+  min-height: 182px;
+}
+
+#main-fund .card-price-list .card-header .name {
+  color: #6f818c;
+}
+
+#main-fund .card-price-list .card-header .discount {
+  margin-bottom: 0;
+}
+
+#main-fund .card-price-list .card-header .discount span:first-child {
+  color: #87a5be;
+  text-decoration: line-through;
+}
+
+#main-fund .card-price-list .card-header .percent {
+  font-size: 13px !important;
+  font-weight: bold;
+}
+
+#main-fund .card-price-list .card-header .percent span {
+  font-size: 40px;
+  color: #d53300;
+}
+
+#main-fund .card-price-list .card-body {
+  padding: 21px 20px 40px;
+}
+
+#main-fund .card-price-list .card-body ul {
+  min-height: 330px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#main-fund .card-price-list .card-body ul li {
+  padding: 13px 10px;
+  text-align: center;
+  font-size: 15px;
+  color: #6f818c;
+}
+
+#main-fund .card-price-list .card-footer {
+  height: 119px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#main-fund .card-price-list .card-footer .btn-buy {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  transition: all 0.8s linear 0s;
+  background-color: #fdb913;
+  border: 0;
+  color: #2a5caa;
+  font-weight: bold;
+}
+
+#main-fund .card-price-list .card-footer a.btn-buy:hover {
+  /*background: linear-gradient(90deg, #2c0399 0%, #0b4257 100%);*/
+  background-color: #2a5caa;
+  border: 0;
+  color: #fff;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1023px) {
+  #main-fund .card-price-list .card-header {
+    padding: 26px 10px 16px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  #main-fund .card-price-list {
+    margin-bottom: 30px;
+  }
+
+  #main-fund .element-price-list div.col-md-4:last-child .card-price-list {
+    margin-bottom: 0;
+  }
+}
+
+/* End Bảng giá phần mềm */
+
+/* Liên hệ */
+
+#main-fund .element-contact {
+  background-image: url(https://fiinves.vn/public/img/contact-1.jpg);
+  padding: 200px 0;
+  background-size: 100%;
+}
+
+#main-fund .element-contact .contact {
+  text-align: right;
+}
+
+#main-fund .element-contact .contact h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+#main-fund .element-contact .contact p {
+  margin-bottom: 40px;
+}
+
+#main-fund .element-contact .contact .btn-contact {
+  padding: 9px 10px;
+  width: 180px;
+  font-size: 16px;
+  border: none;
+  background-color: rgba(235, 161, 52);
+}
+
+/* End Liên hệ */
+
+/* Nhận xét */
+
+#main-fund .element-review {
+  background-image: url(https://fiinves.vn/public/img/bg-review.jpg);
+}
+
+.element-review .carousel-review {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.element-review .carousel-review .carousel-review-items .owl-stage-outer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #1a1f53;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.element-review .carousel-review .item .avatar {
+  width: 100px;
+  margin: auto;
+}
+
+.element-review .carousel-review .item .avatar img {
+  width: 100%;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.element-review .carousel-review .item .name,
+.element-review .carousel-review .item .subject {
+  color: #2a5caa;
+  text-align: center;
+  font-weight: bold;
+}
+
+.element-review .carousel-review .item .name {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.element-review .carousel-review .item .subject {
+  font-size: 16px;
+}
+
+.element-review .carousel-review .item .content p {
+  text-align: justify;
+  font-size: 16px !important;
+}
+
+/* End Nhận xét */
+
+/**** END HOME PAGE ****/
+
+/* Footer */
+
+#footer-fund footer {
+  padding: 15px 0;
+  background-color: #fafafa;
+}
+
+#footer-fund footer .logo-fund,
+#footer-fund footer h4 {
+  height: 50px;
+}
+
+#footer-fund footer .logo-fund {
+  padding: 0;
+}
+
+#footer-fund footer .logo-fund a {
+  display: inline-block;
+  width: 100%;
+}
+
+#footer-fund footer .logo-fund img {
+  width: 50%;
+}
+
+#footer-fund footer p {
+  color: #84939a;
+  font-size: 15px !important;
+}
+
+#footer-fund footer p b {
+  color: #000;
+}
+
+#footer-fund footer .menu-footer h4 {
+  color: #2a5caa;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+#footer-fund footer .menu-footer ul,
+#footer-fund footer .list-social {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#footer-fund footer .menu-footer ul li {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#footer-fund footer .menu-footer ul li a {
+  font-size: 16px;
+  color: #84939a;
+}
+
+#footer-fund footer .menu-footer ul li a:hover {
+  text-decoration: none;
+}
+
+#footer-fund footer .list-social {
+  display: flex;
+  align-items: center;
+  gap: 0 15px;
+}
+
+#footer-fund footer .menu-footer .list-social li {
+  width: 15%;
+  margin-bottom: 0;
+}
+
+#footer-fund footer .list-social li a {
+  display: inline-block;
+  width: 100%;
+}
+
+#footer-fund footer .list-social li a img {
+  width: 100%;
+}
+
+/* #footer-fund footer .follow-social ul li {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #232453;
+  margin-right: 10px;
+  line-height: 40px;
+  text-align: center;
+}
+
+#footer-fund footer .follow-social ul li:last-child {
+  margin-right: 0;
+}
+
+#footer-fund footer .follow-social ul li a {
+  font-size: 14px;
+  color: #858ea8;
+} */
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  #footer-fund footer .menu-footer {
+    padding: 0 15px;
+  }
+
+  #footer-fund footer p {
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1023px) {
+  #footer-fund footer .logo-fund img {
+    width: 75%;
+  }
+
+  #footer-fund footer .menu-footer {
+    padding: 0;
+  }
+
+  #footer-fund footer .menu-footer h4,
+  #footer-fund footer .follow-social h4 {
+    font-size: 15px;
+  }
+
+  #footer-fund footer .menu-footer ul li a {
+    font-size: 14px;
+  }
+
+  #footer-fund footer .follow-social .icon-bct img {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  #footer-fund footer .footer-item {
+    margin-bottom: 30px;
+  }
+
+  #footer-fund footer .footer-item:last-child {
+    margin-bottom: 0;
+  }
+
+  #footer-fund footer .logo-fund img {
+    width: 37%;
+  }
+
+  #footer-fund footer p {
+    margin-bottom: 0;
+  }
+
+  #footer-fund footer .menu-footer {
+    padding: 0;
+  }
+}
+
+/* End Footer */
+
+/* Register */
+
+.register {
+  background-image: url(https://fiinves.vn/public/img/signup-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 130px 0;
+}
+
+.register .card-group .card-left,
+.register .card-group .card-right {
+  border: none;
+}
+
+.register .card-group .card-left {
+  width: 40%;
+  flex-wrap: wrap;
+  flex: initial;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.register .card-group .card-left .card-img {
+  width: 100%;
+  height: 100%;
+}
+
+.register .card-group .card-left .card-img {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.register .card-group .card-right {
+  padding: 30px 50px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.register .card-group .card-right .box-header {
+  margin-bottom: 30px;
+}
+
+.register .card-group .card-right .form-group {
+  font-size: 1.5rem;
+}
+
+.register .card-group .card-right .form-group label {
+  font-weight: bold;
+}
+
+.register .card-group .card-right .form-group input,
+.register .card-group .card-right .form-group select {
+  height: 35px;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+
+.register .card-group .card-right .register-product img {
+  padding-bottom: 20px;
+}
+
+.register
+  .card-group
+  .card-right
+  .register-product
+  .check-product
+  input[type="checkbox"] {
+  display: inline-block;
+}
+
+/*.register .card-group .card-right .register-product .check-product{ 
+	position: absolute; 
+	opacity: 0; 
+	z-index: -1; 
+}
+
+.register .card-group .card-right .register-product .check-product:before{ 
+	font: 16pt FontAwesome; 
+	content: '\00f096'; 
+	display: inline-block; 
+	width: 16pt; 
+	padding: 2px 0 0 3px; 
+	margin-right: 0.5em; 
+}*/
+
+.register .card-group .card-right .register-product p {
+  font-size: 13px !important;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.register .card-group .card-right .register-product p input[type="radio"],
+.register .card-group .card-right .register-product p span {
+  display: inline-block;
+}
+
+.register .card-group .card-right .register-product p input[type="radio"] {
+  width: 14%;
+}
+
+.register .card-group .card-right .register-product p span {
+  width: 87%;
+  vertical-align: middle;
+}
+
+.btn.btn-register {
+  padding: 8px !important;
+  font-size: 1.5rem !important;
+  /*background: linear-gradient(90deg, #28286f 0%, #0b8ed5 100%) !important;*/
+  border: none !important;
+  background-color: #2a5caa;
+  width: 100%;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .register .card-group .card-right {
+    padding: 15px 30px;
+  }
+
+  .register .card-group .card-right .card-body {
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .register .card-group .card-left {
+    display: none;
+  }
+
+  .register .card-group .card-right {
+    padding: 30px 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .register .card-group .card-right .card-body {
+    padding: 0;
+  }
+
+  .register .card-group .card-right .register-product {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+
+/* End Register */
+
+/* Login */
+
+.login {
+  background-image: url(https://fiinves.vn/public/img/login-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /*padding: 130px 0;*/
+}
+
+.login .login-box .card {
+  border-radius: 20px;
+}
+
+.login .login-box .card-body {
+  background-image: url(https://fiinves.vn/public/img/bg-1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 35px 15px;
+  border-radius: 20px;
+}
+
+.login .login-box .card-body .login-logo {
+  margin-bottom: 50px;
+}
+
+.login .login-box .card-body input[type="email"],
+.login .login-box .card-body input[type="password"] {
+  height: 35px;
+  padding: 8px;
+  font-size: 0.9rem;
+}
+
+.login .login-box .card-body .remember {
+  text-align: left;
+}
+
+.login .login-box .card-body .remember input[type="checkbox"],
+.login .login-box .card-body .remember p {
+  display: inline-block;
+}
+
+.login .login-box .card-body .remember p {
+  font-size: 13px !important;
+}
+
+.login .login-box .card-body .forgot-password {
+  text-align: right;
+}
+
+.login .login-box .card-body .forgot-password a.card-link {
+  font-size: 13px !important;
+  color: #1a1f53;
+}
+
+.btn-primary.btn-login {
+  padding: 8px !important;
+  font-size: 1rem !important;
+  background-color: #2a5caa;
+  border: none !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .login .login-box .card-body .card-img {
+    width: 70%;
+  }
+}
+
+/* End Login */
+
+/**** ABOUT US ****/
+
+#main-fund .element-bg-18 {
+  background-image: url(https://fiinves.vn/public/img/bg-18.jpg);
+  padding: 40px 0;
+}
+
+.element-about-1 .logo img {
+  width: 25%;
+}
+
+.element-about-1 .content h3 {
+  border: 2px solid #1a1f53;
+  padding: 10px 0;
+  text-align: center;
+  width: 40%;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.element-about-1 .content p,
+.element-about-lams .about-lams-2 .logo p {
+  text-align: justify;
+}
+
+.element-about-bg {
+  background-image: url(https://fiinves.vn/public/img/bg-6.jpg);
+}
+
+#main-fund .element-section.element-about-2 {
+  padding: 80px 0;
+}
+
+.element-about-2 .quality-fiinveser {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.element-about-2 .quality-fiinveser h1 span {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.element-about-2 .quality-fiinveser .quality-fiinveser-list ul {
+  list-style-type: none;
+  margin-left: 30px;
+  padding: 0;
+}
+
+.element-about-2 .quality-fiinveser .quality-fiinveser-list ul li {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.element-about-2 .quality-fiinveser .quality-fiinveser-list ul li:last-child {
+  margin-bottom: 0;
+}
+
+.element-about-2 .quality-fiinveser .quality-fiinveser-list ul li span {
+  display: inline-block;
+}
+
+.element-about-2 .quality-fiinveser .quality-fiinveser-list ul li span.icon {
+  width: 8%;
+  margin-right: 15px;
+}
+
+.element-about-2
+  .quality-fiinveser
+  .quality-fiinveser-list
+  ul
+  li
+  span.icon
+  img {
+  width: 100%;
+}
+
+.element-about-2 .quality-fiinveser .quality-fiinveser-list ul li span.text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.element-about-3 .about-product {
+  margin-top: -150px;
+}
+
+.element-about-3 .about-product .about-product-item {
+  border: 2px solid #1a1f53;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.element-about-3 .about-product .about-product-item img {
+  width: 36%;
+}
+
+.element-about-3 .team {
+  margin-top: 100px;
+}
+
+.element-about-3 .team p {
+  margin-bottom: 50px;
+}
+
+.element-about-3 .team .team-item {
+  border: 2px solid #cccccc;
+}
+
+.element-about-3 .team .team-item .info {
+  padding: 15px 20px;
+}
+
+.element-about-3 .team .team-item .info .position {
+  margin-bottom: 0;
+  font-size: 14px !important;
+}
+
+.element-about-3 .team .team-item .info .name,
+.element-about-3 .team .team-item .info .position {
+  color: #575f84;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .element-about-3 .about-product {
+    margin-top: -150px;
+  }
+
+  .element-about-3 .about-product .about-product-item h1 font {
+    font-size: 27px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1023px) {
+  #main-fund .element-section.element-about-2 {
+    padding: 130px 0;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .element-about-1 .logo img {
+    width: 60%;
+  }
+
+  .element-about-1 .content h3 {
+    width: 85%;
+  }
+
+  .element-about-2 h1 {
+    position: inherit;
+  }
+
+  .element-about-2 h1 font {
+    font-size: 30px;
+  }
+
+  .element-about-3 .about-product {
+    margin-top: 0;
+  }
+
+  .element-about-3 .about-product .about-product-item {
+    margin-bottom: 15px;
+  }
+
+  .element-about-3 .about-product .col-12:last-child .about-product-item {
+    margin-bottom: 0;
+  }
+
+  .element-about-3 .about-product .about-product-item img {
+    width: 25%;
+  }
+
+  .element-about-3 .about-product .about-product-item h1 font {
+    font-size: 25px;
+  }
+}
+
+/**** END ABOUT US ****/
+
+/**** PRODUCT ****/
+
+/**** -------------ABOUT PRODUCT------------- ****/
+
+#main-fund .element-bg-8 {
+  background-image: url(https://fiinves.vn/public/img/bg-9.jpg);
+  padding: 85px 0 400px 0;
+}
+
+#main-fund .advantages-img {
+  background-image: url(https://fiinves.vn/public/img/about-product-1.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 1;
+  width: 50%;
+  height: 20%;
+  position: absolute;
+  bottom: 46%;
+  left: 42%;
+  z-index: 1;
+}
+
+.about-product-1 .about-product-item .info {
+  padding: 10px;
+}
+
+.about-product-1 .about-product-item .info p {
+  font-size: 16px !important;
+}
+
+.about-product-2 .advantages .advantages-item p {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  #main-fund .element-bg-8 {
+    padding: 85px 0 210px 0;
+  }
+
+  #main-fund .advantages-img {
+    bottom: 46.5%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1023px) {
+  #main-fund .advantages-img {
+    width: 84%;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  #main-fund .element-bg-8 {
+    padding: 40px 0 220px 0;
+  }
+
+  #main-fund .advantages-img {
+    width: 100%;
+    height: 4%;
+    bottom: 57%;
+    left: 0;
+  }
+}
+
+/**** -------------INVEST------------- ****/
+
+#main-fund .element-bg-10 {
+  background-image: url(https://fiinves.vn/public/img/bg-10.jpg);
+  background-size: 100%;
+  padding: 85px 0 360px 0;
+}
+
+.invest-2 .invest-item {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 2px solid #1a1f53;
+}
+
+.invest-2 .invest-item p {
+  margin-bottom: 60px;
+}
+
+.invest-3 .invest-3-default > img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+}
+
+.invest-3 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 210px;
+  padding-top: 50px;
+  width: 50%;
+}
+
+.invest-3 ul li {
+  margin-bottom: 35px;
+  display: flex;
+}
+
+.invest-3 ul li::last-child {
+  margin-bottom: 0px;
+}
+
+.invest-3 ul li .icon {
+  width: 10%;
+}
+
+.invest-3 ul li img {
+  width: 60%;
+}
+
+.invest-3 ul li .text {
+  width: 90%;
+  font-size: 18px;
+  color: #1a1f53;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+#main-fund .element-bg-11 {
+  background-image: url(https://fiinves.vn/public/img/bg-11.png);
+}
+
+.invest-4 img {
+  width: 60%;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  #main-fund .element-bg-10 {
+    background-size: cover;
+    padding: 85px 0 130px 0;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  #main-fund .element-bg-10 {
+    padding: 45px 0 200px 0;
+    background-position: center bottom;
+  }
+
+  .invest-1 h1 font {
+    font-size: 27px;
+  }
+
+  .invest-3 .invest-3-default > img {
+    top: inherit;
+    bottom: 0;
+    right: inherit;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+
+  .invest-3 ul {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .invest-4 img {
+    width: 100%;
+  }
+}
+
+/**** -------------CASH PERSONAL------------- ****/
+
+#main-fund .element-bg-17 {
+  background-image: url(https://fiinves.vn/public/img/bg-17.jpg);
+  background-size: 100%;
+}
+
+.cash-personal-1 .cash-personal-img {
+  background-image: url(https://fiinves.vn/public/img/cash-personal-1.jpg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 1;
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#main-fund .element-bg-12 {
+  background-image: url(https://fiinves.vn/public/img/bg-12.jpg);
+  background-size: 100%;
+  background-position: center 76%;
+}
+
+.cash-personal-2 {
+  height: 760px;
+}
+
+#main-fund .element-bg-13 {
+  background-image: url(https://fiinves.vn/public/img/bg-13.jpg);
+}
+
+.cash-personal-3 .cash-personal-3-item .icon,
+.cash-personal-3 .cash-personal-3-item .text {
+  display: inline-block;
+}
+
+.cash-personal-3 .cash-personal-3-item .icon {
+  width: 10%;
+  margin-right: 10px;
+}
+
+.cash-personal-3 .cash-personal-3-item .icon img {
+  width: 100%;
+}
+
+.cash-personal-3 .cash-personal-3-item .text {
+  width: 87%;
+  color: #1a1f53;
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+.cash-personal-3 .cash-personal-3-item .text ul {
+  margin: 0;
+  padding-left: 10px;
+}
+
+.cash-personal-3 .cash-personal-3-item .text ul li {
+  padding-bottom: 5px;
+}
+
+.cash-personal-3 .cash-personal-3-item .text ul li:last-child {
+  padding-bottom: 0;
+}
+
+#main-fund .element-cash-personal {
+  /* background-image: url(https://fiinves.vn/public/img/bg-8.png);
+  background-size: 100%; */
+  background-color: #fafafa;
+}
+
+.cash-personal-5 {
+  background-color: rgba(204, 204, 204, 0.1);
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  #main-fund .element-bg-12 {
+    background-size: cover;
+  }
+
+  .cash-personal-3 .cash-personal-3-item .text {
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1023px) {
+  #main-fund .element-bg-17 {
+    background-size: cover;
+  }
+
+  #main-fund .element-bg-12 {
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .cash-personal-3 .cash-personal-3-item .icon {
+    width: 14%;
+  }
+
+  .cash-personal-3 .cash-personal-3-item .text {
+    width: 81%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  #main-fund .element-bg-17 {
+    background-size: cover;
+  }
+
+  .cash-personal-2 {
+    height: 345px;
+  }
+
+  #main-fund .element-bg-12 {
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .cash-personal-3 .cash-personal-3-item {
+    margin-bottom: 10px;
+  }
+
+  .cash-personal-3 .cash-personal-3-item .icon {
+    width: 15%;
+  }
+
+  .cash-personal-3 .cash-personal-3-item .text {
+    width: 80%;
+  }
+
+  #main-fund .element-cash-personal {
+    background-position: bottom right;
+  }
+}
+
+/**** -------------PREDICT INDEX------------- ****/
+
+#main-fund .element-bg-14 {
+  background-image: url(https://fiinves.vn/public/img/bg-14.jpg);
+}
+
+.predict-index-1 .predict-index-img {
+  background-image: url(https://fiinves.vn/public/img/predict-index-1.jpg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 1;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.fiinves-coaching.second .predict-index-1 .predict-index-img {
+  background-image: url(https://fiinves.vn/public/img/predict-index-2.jpg);
+}
+
+.fiinves-coaching.third .predict-index-1 .predict-index-img {
+  background-image: url(https://fiinves.vn/public/img/predict-index-3.jpg);
+}
+
+.predict-index-1 .predict-index-1-text {
+  width: 50%;
+  float: right;
+  padding: 70px 0 70px 35px;
+}
+
+#main-fund .element-bg-15 {
+  background-image: url(https://fiinves.vn/public/img/bg-15.jpg);
+}
+
+.predict-index-2 .item .icon,
+.predict-index-2 .item .text {
+  display: inline-block;
+}
+
+.predict-index-2 .item .icon {
+  width: 10%;
+}
+
+.predict-index-2 .item .text {
+  color: #fff;
+  font-size: 15px;
+  width: 86%;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+#main-fund .element-section.predict-index-3 {
+  padding: 0 0;
+}
+
+.predict-index-3 .predict-index-3-default {
+  padding: 85px 0;
+  background-color: rgb(204, 204, 204, 0.7);
+}
+
+.element-section.predict-index-3 .bg-bottom-right {
+  background-position: center right;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .predict-index-2 .item .text {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1023px) {
+  .predict-index-1 .predict-index-img {
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .predict-index-2 .item .icon {
+    width: 14%;
+  }
+
+  .predict-index-2 .item .text {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  #main-fund .element-bg-14 {
+    padding: 40px 0 280px 0;
+  }
+
+  .predict-index-1 .predict-index-img {
+    width: 100%;
+    background-position: center bottom;
+    top: inherit;
+    bottom: 0;
+    height: 39%;
+  }
+
+  .predict-index-1 .predict-index-1-text {
+    padding: 0;
+    width: 100%;
+  }
+
+  .predict-index-1 .predict-index-1-text h1 font {
+    font-size: 25px;
+  }
+
+  .predict-index-2 .item .icon {
+    width: 15%;
+  }
+
+  .predict-index-2 .item .text {
+    width: 76%;
+  }
+
+  .predict-index-3 .predict-index-3-default {
+    padding: 40px 0;
+  }
+
+  .predict-index-3 .predict-index-3-default h1 font {
+    font-size: 25px;
+  }
+}
+
+/**** -------------SAVING------------- ****/
+
+#main-fund .element-section.saving-2 {
+  padding: 150px 0;
+}
+
+.saving-2 .saving-2-img {
+  background-image: url(https://fiinves.vn/public/img/saving-4.jpg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: 105%;
+  opacity: 1;
+  width: 54%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  #main-fund .element-section.saving-2 {
+    padding: 40px 0;
+  }
+
+  .saving-2 h1 font,
+  .saving-3 .saving-3-right h1 font {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1023px) {
+  .saving-2 .saving-2-img {
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  #main-fund .element-section.saving-2 {
+    padding: 40px 0 290px 0;
+  }
+
+  .saving-2 .saving-2-img {
+    width: 100%;
+    background-position: center bottom;
+  }
+}
+
+/**** END PRODUCT ****/
+
+/**** SUPPORT ****/
+
+.tutorial-navTab nav {
+  margin-bottom: 15px;
+}
+
+.tutorial-navTab nav .nav-tabs {
+  border: 2px solid #d9d9d9;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.tutorial-navTab nav .nav-tabs .nav-item {
+  margin-bottom: -2px;
+}
+
+.tutorial-navTab nav .nav-tabs .nav-link {
+  border: 2px solid transparent;
+  font-size: 14px;
+  color: #6f818c;
+}
+
+.tutorial-navTab nav .nav-tabs .nav-link.active {
+  border-color: #2a5caa;
+  color: #2a5caa;
+  border-radius: 0.25rem;
+  background-color: transparent;
+}
+
+.tutorial-navTab .tab-content .tab-pane {
+  border: 2px solid #d9d9d9;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: justify;
+  font-size: 15px;
+  max-height: 800px;
+  overflow-y: auto;
+}
+
+.tutorial-navTab .tab-content .tab-pane h4,
+.tutorial-navTab .tab-content .tab-pane ul li {
+  color: #2a5caa;
+}
+
+.tutorial-navTab .tab-content .tab-pane img {
+  width: 60%;
+  display: block;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.tutorial-navTab .tab-content .tab-pane .img-momo .img-momo-item {
+  width: calc(100% / 4.1);
+  padding: 0 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#main-fund .element-bg-support {
+  background: linear-gradient(90deg, #2d5da9 48.18%, #282870 100%);
+}
+
+.element-useful-info .useful-info-item {
+  border-radius: 5px;
+  background-color: #f4f5f7;
+}
+
+.element-useful-info .useful-info-item a {
+  display: block;
+  padding: 10px 15px;
+}
+
+.element-useful-info .useful-info-item .icon,
+.element-useful-info .useful-info-item .text {
+  display: inline-block;
+}
+
+.element-useful-info .useful-info-item .icon {
+  width: 20%;
+  margin-right: 12px;
+}
+
+.element-useful-info .useful-info-item .text {
+  width: 75%;
+  font-size: 18px;
+  font-weight: bold;
+  color: #3c4248;
+  vertical-align: middle;
+}
+
+.element-form-support .form-support-text ul {
+  margin: 0;
+  list-style-type: none;
+}
+
+.element-form-support .form-support-text ul li {
+  font-size: 18px;
+  color: #6f818c;
+}
+
+.element-form-support .form-support form input {
+  height: 50px;
+}
+
+.element-form-support .form-support form input,
+.element-form-support .form-support form textarea {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  border: 2px solid #1a1f53;
+  color: #1a1f53;
+}
+
+.element-form-support .form-support form input::placeholder,
+.element-form-support .form-support form textarea::placeholder {
+  color: #1a1f53;
+}
+
+.element-form-support .form-support form input:focus,
+.element-form-support .form-support form textarea:focus {
+  box-shadow: none;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .tutorial-navTab nav .nav-tabs .nav-link {
+    width: 25%;
+    font-size: 15px;
+  }
+
+  .element-useful-info .useful-info-item .text {
+    width: 74%;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1023px) {
+  .element-useful-info .useful-info-item a {
+    padding: 10px 5px;
+  }
+
+  .element-useful-info .useful-info-item .text {
+    width: 71%;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .tutorial-navTab nav {
+    overflow-x: auto;
+  }
+
+  .tutorial-navTab nav .nav-tabs {
+    width: 100%;
+  }
+
+  .tutorial-navTab nav .nav-tabs .nav-link {
+    width: 100%;
+  }
+
+  .tutorial-navTab .tab-content .tab-pane img,
+  .tutorial-navTab .tab-content .tab-pane .img-momo .img-momo-item {
+    width: 100%;
+  }
+
+  .element-tutorial .tutorial .tutorial-left h1 {
+    text-align: center;
+  }
+
+  .element-tutorial .tutorial .tutorial-left h1 font {
+    font-size: 36px;
+  }
+
+  .element-useful-info .useful-info-item .icon {
+    width: 18%;
+  }
+
+  .element-form-support .form-support-text ul {
+    padding: 0;
+  }
+}
+
+/**** -------------USEFUL INFORMATION------------- ****/
+
+.element-useful-information {
+  color: #1a1f53;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.element-useful-information .useful-information {
+  border: 1px solid #1a1f53;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+
+.element-useful-information .useful-information .useful-information-content {
+  max-height: 600px;
+  overflow-x: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.element-useful-information
+  .useful-information
+  .useful-information-content::-webkit-scrollbar {
+  width: 10px;
+}
+
+.element-useful-information
+  .useful-information
+  .useful-information-content::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.element-useful-information
+  .useful-information
+  .useful-information-content::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.element-useful-information
+  .useful-information
+  .useful-information-content::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.element-useful-information .useful-information .useful-information-content h5 {
+  font-weight: bold;
+}
+
+.element-useful-information .useful-information .useful-information-content p {
+  font-size: 15px !important;
+}
+
+.element-useful-information
+  .useful-information
+  .useful-information-content
+  .list {
+  list-style-type: decimal;
+  padding-left: 30px;
+}
+
+.element-useful-information
+  .useful-information
+  .useful-information-content
+  .list
+  li
+  .list-item {
+  margin-bottom: 1rem;
+  padding-left: 20px;
+}
+
+/**** END SUPPORT ****/
+
+/**** CAREER ****/
+
+#main-fund .element-bg-career {
+  background-image: url(https://fiinves.vn/public/img/bg-7.jpg);
+}
+
+.element-career-2 .list-career-item {
+  border: 2px solid #000;
+  border-radius: 5px;
+  background-color: #1a1f53;
+  padding: 10px 20px;
+  margin-bottom: 3rem;
+}
+
+.element-career-2 .list-career-item:last-child {
+  margin-bottom: 0;
+}
+
+.element-career-2 .list-career-item .info-career,
+.element-career-2 .list-career-item .recruitment {
+  display: inline-block;
+}
+
+.element-career-2 .list-career-item .info-career {
+  width: 84%;
+}
+
+.element-career-2 .list-career-item .info-career .info {
+  color: #fff;
+  font-size: 15px;
+}
+
+.element-career-2 .list-career-item .recruitment {
+  width: 15%;
+}
+
+/**** ------------CAREER DETAIL------------ ****/
+
+.element-recruitment-detail {
+  position: relative;
+}
+
+.element-recruitment-detail .info-recruitment {
+  border-radius: 5px;
+  border: 2px solid #1a1f53;
+  background-color: #fff;
+  padding: 20px 30px;
+}
+
+.element-recruitment-detail .info-recruitment .info-recruitment-item {
+  color: #1a1f53;
+  font-size: 16px;
+}
+
+.element-recruitment-detail .info-recruitment .info-recruitment-item .icon {
+  padding-right: 10px;
+}
+
+.element-recruitment-detail .info-recruitment .info-recruitment-item .icon img {
+  width: 12%;
+}
+
+.element-recruitment-detail .info-recruitment .info-recruitment-item .text {
+  font-weight: bold;
+}
+
+.element-recruitment-detail .form-recruitment input[type="text"],
+.element-recruitment-detail .form-recruitment input[type="email"] {
+  background-color: #cccccc;
+  color: #1a1f53;
+  border-radius: 5px;
+  border: 2px solid #1a1f53;
+  padding: 14px;
+  height: 50px;
+}
+
+.element-recruitment-detail .form-recruitment input[type="file"] {
+  display: inline-block;
+  width: auto;
+}
+
+.element-section .bg-bottom-right {
+  background-image: url(https://fiinves.vn/public/img/bg-8.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 1;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .element-section .bg-bottom-right {
+    width: 100%;
+  }
+}
+
+/**** END CAREER ****/
+
+/**** CONTACT ****/
+
+.contact-information .info-contact .map iframe {
+  border: 8px solid #b7b7b7 !important;
+}
+
+/**** END CONTACT ****/
+
+/**** PAYMENT METHOD ****/
+
+.element-payment-method {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.element-payment-method ul {
+  color: #1a1f53;
+}
+
+/**** END PAYMENT METHOD ****/
+
+/**** PRIVACY POLICY ****/
+
+.element-privacy-policy .card .card-body {
+  color: #1a1f53;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.accordion .card {
+  border: none;
+  background-color: transparent;
+  padding: 0 0 10px 0;
+}
+
+.accordion .card .card-header {
+  border: 2px solid #1a1f53;
+  border-radius: 5px;
+  padding: 0;
+  background-color: #fff;
+}
+
+.accordion .card .card-header h2 button {
+  width: 100%;
+  text-align: left;
+  padding: 0.75rem 1.25rem;
+}
+
+.accordion .card .card-header h2 button:hover,
+.accordion .card .card-header h2 button:focus {
+  text-decoration: none;
+}
+
+.element-privacy-policy .card #collapseTwo .card-body {
+  max-height: 600px;
+  overflow-x: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.element-privacy-policy .card .card-body .list {
+  margin: 0;
+  padding-left: 20px;
+  list-style-type: lower-alpha;
+}
+
+.element-privacy-policy .card .card-body .list li,
+.element-privacy-policy .card .card-body .list li .list-item li {
+  margin-bottom: 15px;
+}
+
+.element-privacy-policy .card .card-body .list li {
+  font-weight: bold;
+}
+
+.element-privacy-policy .card .card-body .list li p {
+  font-weight: normal;
+}
+
+.element-privacy-policy .card .card-body .list li .list-item {
+  margin: 0;
+  list-style-type: disc;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.element-privacy-policy .card .card-body .list li .list-item li {
+  font-weight: normal;
+}
+
+/**** END PRIVACY POLICY ****/
+
+/**** TERM OF SERVICE ****/
+
+.element-term-service {
+  color: #1a1f53;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.element-term-service .term-service {
+  border: 1px solid #1a1f53;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+
+.element-term-service .term-service .term-service-content {
+  max-height: 600px;
+  overflow-x: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.element-privacy-policy .card #collapseTwo .card-body::-webkit-scrollbar,
+.element-term-service .term-service .term-service-content::-webkit-scrollbar {
+  width: 10px;
+}
+
+.element-privacy-policy .card #collapseTwo .card-body::-webkit-scrollbar-track,
+.element-term-service
+  .term-service
+  .term-service-content::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.element-privacy-policy .card #collapseTwo .card-body::-webkit-scrollbar-thumb,
+.element-term-service
+  .term-service
+  .term-service-content::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.element-privacy-policy
+  .card
+  #collapseTwo
+  .card-body::-webkit-scrollbar-thumb:hover,
+.element-term-service
+  .term-service
+  .term-service-content::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.element-term-service .term-service h5 {
+  font-weight: bold;
+}
+
+.element-term-service .term-service p {
+  font-size: 15px !important;
+}
+
+/**** END TERM OF SERVICE ****/
+
+/**** MESSAGE SUCCESS REGISTER ****/
+
+.message-success {
+  border: 2px solid #1a1f53;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 70px 60px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.message-success p {
+  color: #000;
+}
+
+.message-success a {
+  border: 1px solid #fff;
+  background-color: #1a1f53;
+}
+
+.message-success a:hover {
+  border: 1px solid #1a1f53;
+  background-color: transparent;
+  color: #1a1f53;
+}
+
+/**** END MESSAGE SUCCESS REGISTER ****/
+
+/**** PAYMENT METHOD ****/
+
+.order-payment-method .payment-method-default {
+  font-size: 16px;
+}
+
+.order-payment-method .payment-method-default .order-info .order-info-item {
+  padding: 20px 10px;
+  border: 2px solid #1a1f53;
+  border-radius: 20px;
+}
+
+.order-payment-method
+  .payment-method-default
+  .order-info
+  .order-info-item
+  table
+  tr {
+  height: 50px;
+}
+
+.order-payment-method
+  .payment-method-default
+  .order-info
+  .order-info-item.last
+  table
+  thead,
+.order-payment-method
+  .payment-method-default
+  .order-info
+  .order-info-item.last
+  table
+  tbody {
+  border-bottom: 2px solid #1a1f53;
+}
+
+.order-payment-method
+  .payment-method-default
+  .select-payment-method
+  .title-check {
+  border: 2px solid #1a1f53;
+  padding: 12px 10px;
+  border-radius: 15px;
+}
+
+/**** END PAYMENT METHOD ****/
+
+/**** COURSE ****/
+
+#main-fund .element-section.element-section-course {
+  padding: 20px 0;
+  background-color: #fff;
+}
+
+#main-fund .element-section.element-section-course.course-pdx-135 {
+  padding: 135px 0;
+}
+
+.element-section-course .bg-gray {
+  background-color: #f4f5f7;
+}
+
+.course-intro .wrap,
+.course-about .wrap,
+.course-content .wrap,
+.smes .course-experience .wrap,
+.bigcorp .course-experience .wrap {
+  border-radius: 12px;
+}
+
+.course-intro .wrap {
+  padding: 20px 50px;
+}
+
+.course-intro .wrap .item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0 15px;
+  margin-bottom: 45px;
+}
+
+.course-intro .wrap .item:last-child {
+  margin-bottom: 0;
+}
+
+.course-intro .wrap .item .image {
+  width: 55px;
+}
+
+.course-intro .wrap .item .image img {
+  width: 100%;
+}
+
+.course-intro .wrap .item .title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.course-intro .wrap .item .desc {
+  color: #6f818c;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+.course-menu .wrap {
+  padding: 15px 50px;
+  border-radius: 10px;
+  background-color: #2a5caa;
+}
+
+.course-menu .wrap ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.course-menu .wrap ul li {
+  display: inline-block;
+  width: calc((100% / 3) - 2px);
+}
+
+.course-menu .wrap ul li a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.course-experience .wrap .title,
+.course-about .wrap .title,
+.course-content .wrap .title {
+  font-size: 25px;
+}
+
+#main-fund .element-section-course.courser-image-bg {
+  background-size: 100%;
+  background-color: #2d5da9;
+}
+
+.course-experience .wrap .title {
+  color: #fff;
+  padding: 15px 50px;
+}
+
+.course-experience .list {
+  padding: 0;
+}
+
+.course-experience .list .list-item ul,
+.course-about .content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.course-experience .list .list-item ul li,
+.course-about .content ul li {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.course-experience .list .list-item ul li {
+  align-items: center;
+}
+
+.course-experience .list .list-item ul li:last-child,
+.course-about .content ul li:last-child {
+  margin-bottom: 0;
+}
+
+.course-experience .list .list-item ul li .icon,
+.course-about .content ul li .icon {
+  display: inline-block;
+  max-width: 26px;
+  margin-right: 20px;
+}
+
+.course-experience .list .list-item ul li .icon img,
+.course-about .content ul li .icon img {
+  width: 100%;
+}
+
+.course-experience .list .list-item ul li .text,
+.course-about .content ul li .text {
+  color: #fff;
+  font-size: 18px;
+}
+
+.fiinves-coaching
+  .predict-index-1.course-experience
+  .list
+  .list-item
+  ul
+  li
+  .text,
+.course-about .content ul li .text {
+  color: #6f818c;
+}
+
+/* .fiinves-business .course-experience .course-img {
+  width: 50%;
+  margin: 0 auto;
+} */
+
+.smes .course-experience .course-img img,
+.bigcorp .course-experience .course-img img {
+  width: 100%;
+}
+
+.course-about .wrap .title,
+.course-content .wrap .title {
+  padding: 35px 20px 15px;
+  border-bottom: 1px solid #1a1f53;
+}
+
+.course-about .wrap .content {
+  padding: 20px;
+}
+
+.course-about .wrap .content p {
+  font-size: 13px;
+}
+
+.course-about .wrap .content p i {
+  margin-right: 20px;
+  color: #2a5caa;
+}
+
+.course-about .wrap .content .highlight-text {
+  font-size: 15px;
+  color: #2a5caa;
+}
+
+.course-about .wrap .content .highlight-text.--italic {
+  font-style: italic;
+}
+
+.course-content .catalog .accordion {
+  padding: 20px;
+}
+
+.course-content .catalog .accordion .card-header {
+  border: none;
+}
+
+.course-content .catalog .accordion .card-header button {
+  color: #1a1f53;
+  font-weight: bold;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.course-content .catalog .accordion .card-header button img,
+.course-content .catalog table tbody td img {
+  width: 20px;
+  margin-right: 20px;
+}
+
+.course-content .catalog .accordion .card-body {
+  padding: 5px 10px;
+}
+
+.course-content .catalog table {
+  margin-bottom: 0;
+}
+
+.course-content .catalog table tbody,
+.course-content .catalog table tbody td {
+  border: none !important;
+}
+
+.course-content .catalog table tbody td {
+  font-size: 14px;
+  color: #1a1f53;
+}
+
+.course-content .catalog table tbody td:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.course-content .catalog table tbody td:nth-child(2) {
+  color: #d55e00;
+}
+
+.course-form .course-form-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.course-form .course-form-title .title,
+.course-form .course-form-title .subtitle,
+.course-form .course-form-note {
+  color: #fff;
+}
+
+.course-form .course-form-title .title {
+  font-size: 32px;
+}
+
+.course-form .course-form-title .subtitle {
+  text-transform: uppercase;
+  font-weight: normal !important;
+}
+
+.course-form .course-form-title .subtitle span {
+  font-size: 22px;
+}
+
+.smes .course-form .course-form-title .subtitle span.price {
+  color: #d55e00;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.course-form form .form-group {
+  margin-bottom: 35px;
+}
+
+.course-form form .form-group input,
+.course-form form .form-group textarea {
+  padding: 22px 25px;
+  background-color: #e6e7e9;
+  border: none;
+  border-radius: 12px;
+  color: #1a1f53;
+}
+
+.course-form form .form-group input::placeholder,
+.course-form form .form-group textarea::placeholder {
+  color: #1a1f53;
+}
+
+.course-form form .course-register {
+  display: block;
+  margin: 25px auto;
+  background-color: #fff;
+  border: none;
+  color: #2a5caa;
+  font-weight: bold;
+  padding: 8px 35px;
+  text-transform: uppercase;
+}
+
+.course-form .course-form-note {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.course-qr {
+  background-color: #fff;
+}
+
+.course-qr .qr-code img {
+  width: 100%;
+}
+
+.fiinves-coaching .course-preface.course-experience .title,
+.fiinves-coaching .course-preface.course-experience .list {
+  width: 48%;
+}
+
+.fiinves-coaching .course-preface.course-experience .title {
+  font-size: 23px;
+  margin-left: auto;
+}
+
+.fiinves-coaching .course-preface.course-experience .list {
+  float: right;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1023px) {
+  #main-fund .element-section-course.courser-image-bg {
+    background-size: cover;
+  }
+
+  .course-experience .list .list-item ul li {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .course-menu .wrap ul li {
+    width: 100%;
+  }
+
+  #main-fund .element-section-course.courser-image-bg {
+    background-size: cover;
+  }
+
+  #main-fund .element-section.element-section-course.course-preface {
+    padding: 40px 0 280px 0;
+  }
+
+  .fiinves-coaching .course-preface.course-experience .title,
+  .fiinves-coaching .course-preface.course-experience .list {
+    width: 100%;
+    padding: 0;
+  }
+
+  .course-form .course-form-title .title {
+    font-size: 28px;
+  }
+}
+
+/**** END COURSE ****/

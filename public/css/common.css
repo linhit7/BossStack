@@ -1,0 +1,82 @@
+.btn-save, .btn-cancel {
+    width: 40%;
+}
+
+.cur-pointer {
+    cursor: pointer;
+}
+
+.loading-wrapper {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 9999;
+}
+
+.loading-wrapper .loading {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 200px;
+}
+
+.table-hover thead {
+    border-top: 1px solid #f4f4f4;
+}
+
+.dz-default.dz-message {
+    padding: 20px;
+    text-align: center;
+    border: 1px dashed #0984e3;
+    cursor: pointer;
+}
+
+.dz-image {
+    padding-top: 10px;
+}
+
+#upload-images-preview .dz-success-mark, #upload-images-preview .dz-error-mark {
+    display: none;
+}
+
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 3px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.5; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 12px; /* Set a specific slider handle width */
+  height: 12px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 12px; /* Set a specific slider handle width */
+  height: 12px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
