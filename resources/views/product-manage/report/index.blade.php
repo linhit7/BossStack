@@ -68,7 +68,7 @@
         	</div>
         	<br>
         	<div class="coaching-form">
-				<p style="text-align: justify;"><font size="3">Tham gia chương trình <b>coaching</b> 1:1 nhằm xây dựng và gia tăng dòng tiền của bạn, vui lòng gửi thông tin cho chúng tôi:</font></p>
+				<p style="text-align: justify;"><font size="3">Tham gia chương trình <b>Coaching</b> 1:1 nhằm xây dựng và gia tăng dòng tiền của bạn, vui lòng gửi thông tin cho chúng tôi:</font></p>
                 <form role="form" action="{{ route('report-store') }}?continue=true" method="post" id="frm">
                 {{ csrf_field() }}
                 <input type='hidden' name='course' value='4'>

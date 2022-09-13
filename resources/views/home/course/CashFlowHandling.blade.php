@@ -126,7 +126,7 @@
                             <p class="highlight-text --italic"><b>Coaching này sẽ giúp bạn:</b></p>
                             <p>
                                 <i class="fas fa-check"></i>Có cái nhìn rõ ràng về bức tranh tài chính cuộc đời.<br>
-                                <i class="fas fa-check"></i>Phát triển chuyên môn đam mê thật thật giỏi để xây dựng một công thức kiếm tiền.<br>
+                                <i class="fas fa-check"></i>Phát triển chuyên môn đam mê thật giỏi để xây dựng một công thức kiếm tiền.<br>
                                 <i class="fas fa-check"></i>Hiện rõ con đường, cách thức để bạn xây dựng Quỹ hưu trí, tiến tới việc Nghỉ hưu sớm.<br>
                             </p>
                             <p class="highlight-text --italic"><b>Bạn có:</b></p>
@@ -272,7 +272,7 @@
                     <div class="col-md-12 col-12">
                         <div class="course-form-title">
                             <h1 class="title"><b>ĐĂNG KÝ CHỈ TRONG 30 GIÂY</b></h1>
-                            <h4 class="subtitle">CHƯƠNG TRÌNH CHỈ DÀNH RIÊNG CHO BẠN VÀ CHỈ BẠN</h4>
+                            <h4 class="subtitle">CHƯƠNG TRÌNH DÀNH RIÊNG CHO BẠN VÀ CHỈ BẠN</h4>
                         </div>
                         <form role="form" action="{{ route('coaching-store') }}?continue=true" method="post" id="frm">
                         {{ csrf_field() }}

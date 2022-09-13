@@ -17,7 +17,7 @@
       var fromtime = {{ $model->currentage }};
       var totime = {{ $model->planage }};
 
-      smallData[0] = ['Tiền tích lũy hàng năm'];
+      smallData[0] = ['Tiền tích lũy hằng năm'];
       smallData[1] = ['Số dư tích lũy'];
       smallData[2] = ['Mục tiêu'];
 
@@ -44,12 +44,12 @@
           columns: smallData,
 
           types: {
-            'Tiền tích lũy hàng năm': 'bar',
+            'Tiền tích lũy hằng năm': 'bar',
             'Số dư tích lũy': 'bar',
             'Chỉ tiêu': 'area'
           },
           colors: {
-            'Tiền tích lũy hàng năm': '#00ff00',
+            'Tiền tích lũy hằng năm': '#00ff00',
             'Số dư tích lũy': '#1f77b4',
             'Chỉ tiêu': '#ff0000'
           },          

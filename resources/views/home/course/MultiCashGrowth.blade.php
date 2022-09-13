@@ -77,16 +77,16 @@
                                 <i class="fas fa-check"></i>Cơ cấu lại tài sản nợ và cùng nhau nhìn lại bức tranh đầu tư (nếu có).<br>
                                 <i class="fas fa-check"></i>Thực hiện đầu tư cho lượng tiền nhàn rỗi có tỷ suất sinh lời cao hơn.<br>
                                 <i class="fas fa-check"></i>Giữ tiền và bài toán an toàn hơn cho tài sản hiện tại.<br>
-                                <i class="fas fa-check"></i>Xử lý đa dòng tiền một cách có kế hoạch đảm bảo các mục tiêu tài chính.<br>
+                                <i class="fas fa-check"></i>Xử lý đa dòng tiền một cách có kế hoạch để đảm bảo các mục tiêu tài chính.<br>
                             </p>
                             <p class="highlight-text --italic"><b>Bạn có:</b></p>
                             <p>
-                                <i class="fas fa-check"></i>1 buổi Coach 1:1 cùng nhau cơ cấu lại Danh mục Tài sản Nợ.<br>
-                                <i class="fas fa-check"></i>1 buổi Coach 1:1 xử lý Đa Dòng tiền và an toàn tài chính.<br>
-                                <i class="fas fa-check"></i>1 buổi Coach 1:1 về Tăng trưởng Dòng tiền Đầu tư.<br>
+                                <i class="fas fa-check"></i>1 Buổi Coach 1:1 cùng nhau cơ cấu lại Danh mục Tài sản Nợ.<br>
+                                <i class="fas fa-check"></i>1 Buổi Coach 1:1 xử lý Đa Dòng tiền và An toàn tài chính.<br>
+                                <i class="fas fa-check"></i>1 Buổi Coach 1:1 về Tăng trưởng Dòng tiền Đầu tư.<br>
                                 <i class="fas fa-check"></i>1 năm sử dụng miễn phí tài khoản BossStack gói VIP – Giải pháp tài chính cho dòng tiền của bạn với giá: <b>11.988.000 đồng</b>.<br>
                                 <i class="fas fa-check"></i>1 chương trình làm sạch tài chính cơ bản và chuyên sâu.</br>
-                                <i class="fas fa-check"></i>Nhận được danh mục đầu tư khuyến nghị hàng tháng trong 1 năm.</br>
+                                <i class="fas fa-check"></i>Nhận được danh mục đầu tư khuyến nghị hằng tháng trong 1 năm.</br>
                                 <i class="fas fa-check"></i>Thiết lập danh mục đầu tư ban đầu.</br>
                                 <i class="fas fa-check"></i>Đánh giá dòng tiền mỗi quý/lần.</br>
                             </p>
@@ -227,7 +227,7 @@
                     <div class="col-md-12 col-12">
                         <div class="course-form-title">
                             <h1 class="title"><b>ĐĂNG KÝ CHỈ TRONG 30 GIÂY</b></h1>
-                            <h4 class="subtitle">CHƯƠNG TRÌNH CHỈ DÀNH RIÊNG CHO BẠN VÀ CHỈ BẠN</h4>
+                            <h4 class="subtitle">CHƯƠNG TRÌNH DÀNH RIÊNG CHO BẠN VÀ CHỈ BẠN</h4>
                         </div>
                         <form role="form" action="{{ route('coaching-store') }}?continue=true" method="post" id="frm">
                         {{ csrf_field() }}

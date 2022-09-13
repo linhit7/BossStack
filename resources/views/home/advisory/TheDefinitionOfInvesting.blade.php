@@ -11,12 +11,12 @@
 
 					<p>Trong tài chính, đầu tư là hành động góp tiền, góp vốn vào một tổ chức hay một đối tượng với kỳ vọng giá trị của tổ chức hay đối tượng sẽ tăng trưởng nhằm thu về lợi nhuận.</p>
 
-					<p>Thuật ngữ đầu tư thường được sử dụng khi đề cập đến một triển vọng dài hạn, trái ngược hoàn toàn với đầu cơ, một hoạt động ngắn hạn liên quan đến mức độ rủi ro cao hơn rất nhiều.  Do đó, Warren Buffett đã khẳng định: “Cách thực sự đơn giản phân biệt giữa đầu tư và đầu cơ là kiểm tra xem bạn có quan tâm ngày mai thị trường có mở cửa hay không”.</p>
+					<p>Thuật ngữ đầu tư thường được sử dụng khi đề cập đến một triển vọng dài hạn, trái ngược hoàn toàn với đầu cơ, một hoạt động ngắn hạn liên quan đến mức độ rủi ro cao hơn rất nhiều.  Do đó, Warren Buffett đã khẳng định: “Cách thực sự đơn giản để phân biệt giữa đầu tư và đầu cơ là kiểm tra xem bạn có quan tâm ngày mai thị trường có mở cửa hay không”.</p>
 
 					<p><b>Các hình thức đầu tư phổ biến:</b></p>
 
 					<ul class="list" style="list-style-type: square;">
-						<li>Chứng khoán (cổ phiếu, trái phiếu,..): yêu cầu người tham gia phải có kiến thức và kỹ năng tương đối.</li>
+						<li>Chứng khoán (cổ phiếu, trái phiếu,...): yêu cầu người tham gia phải có kiến thức và kỹ năng tương đối.</li>
 
 						<li>Đầu tư vào các quỹ: không cần vốn lớn, lợi nhuận ổn định, tiết kiệm thời gian, quy trình đơn giản, được quản lý chuyên nghiệp.</li>
 
@@ -24,7 +24,7 @@
 
 						<li>Đầu tư vào bất động sản.</li>
 						
-						<li>Tiết kiệm hưu trí; tiết kiệm ngân hàng...</li>
+						<li>Tiết kiệm hưu trí, tiết kiệm ngân hàng,...</li>
 					</ul>
 
 					<p>Như vậy, khi tham gia đầu tư, bạn có thể sở hữu nhiều tài sản tài chính với đa dạng hình thức: từ các trái phiếu chính phủ siêu an toàn, hoàn vốn thấp tới các cổ phiếu của các tập đoàn quốc tế với lợi nhuận vô cùng cao nhưng rủi ro đi kèm cũng không nhỏ. Điều này là dễ hiểu bởi một trong những quy tắc cần nhớ khi đầu tư đó là "High risk, high return".</p>

@@ -63,7 +63,7 @@
     <div class="col-xs-12">
         <div class="box">
             <p style="margin-left:5px;margin-top:10px;font-size:11pt;">
-                Chức năng quản lý các ví tài chính của phần mềm Fiinves là công cụ hữu ích để hỗ trợ bạn đánh giá và xem lại việc quản lý tài chính của mình.
+                Chức năng quản lý các ví tài chính của phần mềm BossStack Coaching là công cụ hữu ích để hỗ trợ bạn đánh giá và xem lại việc quản lý tài chính của mình.
             </p>
 
             <div class="row" style="padding: 10px 0;">

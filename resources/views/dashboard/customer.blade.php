@@ -108,7 +108,7 @@
                             <div class="financial-planning-item">
                                 <a class="btn btn-default add-objective" href="{{ route('cashplans-add') }}" title="">
                                     <i class="fas fa-plus-circle"></i> 
-                                    <p><b>THÊM VÍ MỤC TIÊU</b></p>
+                                    <p><b>Thêm ví mục tiêu</b></p>
                                 </a>
                             </div>
                             
@@ -169,11 +169,11 @@
 
                                     <div class="financial-planning-btn">
                                         <div class="row">
-                                            <div class="col-md-6 col-xs-6">
-                                                <a class="btn btn-primary btn-income" target="blank" href="{{ route('cashplans-edit',['id'=> $item->id]) }}"><b>CHỈNH SỬA</b></a>
+                                            <div class="col-md-8 col-xs-8">
+                                                <a class="btn btn-primary btn-analytical" target="blank" href="{{ route('cashplans-analysis',['id'=> $item->id]) }}">Phân tích</a>
                                             </div>
-                                            <div class="col-md-6 col-xs-6">
-                                                <a class="btn btn-primary btn-analytical" target="blank" href="{{ route('cashplans-analysis',['id'=> $item->id]) }}"><b>PHÂN TÍCH</b></a>
+                                            <div class="col-md-4 col-xs-4">
+                                                <a class="btn-income" target="blank" href="{{ route('cashplans-edit',['id'=> $item->id]) }}">Chỉnh sửa</a>
                                             </div>
                                         </div>
                                     </div>

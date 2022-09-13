@@ -49,14 +49,14 @@
 
             <div class="box-body">
                 
-                <p><font size="3">Nếu khách hàng có nhu cầu tư vấn ứng dụng Fiinves, vui lòng liên hệ:</font></p>
+                <p><font size="3">Nếu khách hàng có nhu cầu tư vấn ứng dụng BossStack Coaching, vui lòng liên hệ:</font></p>
 				
 				<ul>
 					<li style="list-style-type: none;">
 						<font size="3"><b>Công ty TNHH Lam Minh Anh</b></font>
 					</li>
 					<li>
-						<font size="3"><b>Địa chỉ: </b>LM81-42.OT04 (Officetel), Tòa Landmark 81 Vinhomes Central Park, Số 720A Điện Biên Phủ, Phường 22, Quận Bình Thạnh, Tp Hồ Chí Minh</font>
+						<font size="3"><b>Địa chỉ: </b>LM81 - 42.OT04 (Officetel), Tòa Landmark 81 Vinhomes Central Park, Số 720A Điện Biên Phủ, Phường 22, Quận Bình Thạnh, Tp Hồ Chí Minh</font>
 					</li>
 					<li>
 						<font size="3"><b>Số điện thoại: </b>0918.905.500 (Zalo/Viber/Skype)</font>

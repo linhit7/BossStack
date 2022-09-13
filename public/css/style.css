@@ -18,7 +18,7 @@ h6,
 .h5,
 .h6 {
   font-family: "Roboto", sans-serif !important;
-  color: #2D5DA9;
+  color: #2d5da9;
 }
 
 h1,
@@ -44,7 +44,7 @@ h4,
 h5,
 .h5 {
   font-size: 16px;
-  color: #2D5DA9;
+  color: #2d5da9;
 }
 
 h6,
@@ -78,7 +78,7 @@ div.box,
 div.box.box-primary,
 div.box.box-default {
   border-top: none;
-  background-color: #F4F5F7;
+  background-color: #e7eaed;
 }
 
 .box-body > .table {
@@ -157,6 +157,17 @@ textarea.form-control,
   padding: 4px 0;
   max-height: 50px;
   max-width: 42.5px;
+}
+
+.navbar-custom-menu .navbar-nav li.notifications-menu .notifications-new {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 12px;
+  right: 15px;
 }
 
 .navbar-nav > .user-menu > .dropdown-menu > .user-footer {
@@ -511,7 +522,7 @@ textarea.form-control,
   row-gap: 20px;
 }
 
-.banner-icon .icon .banner-img{
+.banner-icon .icon .banner-img {
   width: 100px;
   height: 100px;
   display: flex;
@@ -521,9 +532,9 @@ textarea.form-control,
   background-color: #2d5da9;
 }
 
-.banner-icon .icon p{
+.banner-icon .icon p {
   font-size: 14px;
-  color: #3C4248;
+  color: #3c4248;
   text-align: center;
   margin-bottom: 0;
 }

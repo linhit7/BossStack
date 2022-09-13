@@ -29,7 +29,7 @@
 						<li>
 							<h5>Lập kế hoạch chi tiêu hiện tại và thực hiện kế hoạch.</h5>
 
-							<p>Từ bảng rà soát chi phí của quá khứ bạn hãy lên một lập một kế hoạch chi tiêu hiện tại. Và tuyệt đối trung thực với những con số!</p>
+							<p>Từ bảng rà soát chi phí của quá khứ bạn hãy lập một kế hoạch chi tiêu hiện tại. Và tuyệt đối trung thực với những con số!</p>
 
 							<p>Trong nhiều trường hợp, lý do chúng ta không tính toán được chi phí sinh hoạt thực tế là do khi lên kế hoạch chi tiêu, bạn đã quên hoặc cố tình lờ đi các khoản chi phí phát sinh. Một số người có thói quen không cụ thể trong số tiền kiếm được, số tiền chi ra. Khi bạn tính toán các khoản chi tiêu của mình, bạn thường tính theo tháng, theo năm mà quên đi những khoản “nho nhỏ” phải chi trong các tuần và những chi phí kèm theo. Và việc kiểm soát những chi phí ẩn này dường như là khó vô cùng. Nó luôn làm cho con số chi ra của bạn không khớp với tính toán. Vì vậy, để có thể trung thực trong thu chi bạn bắt buộc phải kiểm soát được những con số trong các chi phí phát sinh ẩn.</p>
 
@@ -39,9 +39,9 @@
 						<li>
 							<h5>Kiểm soát và điều chỉnh kế hoạch thực hiện.</h5>
 
-							<p>Khi rà soát lại bảng chi tiêu, những khoản tiền thâm hụt đã lộ diện nhưng chúng ta chỉ dừng lại ở việc xem xét chúng mà không có giải pháp cho chúng. Khi đã lên kế hoạch chi tiêu việc kiểm soát chi phí phát sinh, chi phí ẩn không chỉ dừng lại ở việc bạn tìm ra mà phải đưa ra giải pháp và phải hạn chế đến mức có thể được. Khi bạn chuyển công việc, thay đổi nơi ở, kết hôn, tham gia thêm một lĩnh vực khác ngoài giờ làm,... sẽ có nhiều sự kiện sẽ làm chi phí phát sinh. Bạn cần có kế hoạch cho những khoản chi đó được tính toán trong ngân sách. Kiểm soát và điều chỉnh kế hoạch theo thực tế là một điều không thể tránh khỏi.</p>
+							<p>Khi rà soát lại bảng chi tiêu, những khoản tiền thâm hụt đã lộ diện nhưng chúng ta chỉ dừng lại ở việc xem xét chúng mà không có giải pháp cho chúng. Khi đã lên kế hoạch chi tiêu thì việc kiểm soát chi phí phát sinh, chi phí ẩn không chỉ dừng lại ở việc bạn tìm ra mà phải đưa ra giải pháp và phải hạn chế đến mức có thể được. Khi bạn chuyển công việc, thay đổi nơi ở, kết hôn, tham gia thêm một lĩnh vực khác ngoài giờ làm,... có nhiều sự kiện làm chi phí phát sinh. Bạn cần có kế hoạch cho những khoản chi đó được tính toán trong ngân sách. Kiểm soát và điều chỉnh kế hoạch theo thực tế là một điều không thể tránh khỏi.</p>
 
-							<p>Thấu hiểu nguyên tắc: “Có lỗ hổng chi tiêu sẽ tạo ra nợ, muốn giảm được nợ cần cắt giảm chi phí hoặc tăng thu nhập”, <b>BossStack</b> cung cấp bộ giải pháp giúp bạn kiểm soát các lỗ hỏng của mình và cân đối thu chi hiệu quả. Từ đó gợi ý những giải pháp giúp bạn gia tăng thu nhập, từng bước đạt được con đường tự do tài chính của mình. Tham khảo ngay gói sản phẩm của <b>BossStack</b> (<a href="https://bossstack.vn/personalcash">Tại đây</a>).</p>
+							<p>Thấu hiểu nguyên tắc: “Có lỗ hổng chi tiêu sẽ tạo ra nợ, muốn giảm được nợ cần cắt giảm chi phí hoặc tăng thu nhập”, <b>BossStack</b> cung cấp bộ giải pháp giúp bạn kiểm soát các lỗ hổng của mình và cân đối thu chi hiệu quả. Từ đó gợi ý những giải pháp giúp bạn gia tăng thu nhập, từng bước đạt được con đường tự do tài chính của mình. Tham khảo ngay gói sản phẩm của <b>BossStack</b> (<a href="https://bossstack.vn/personalcash">Tại đây</a>).</p>
 						</li>
 					</ul>
 				</div>

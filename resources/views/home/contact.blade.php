@@ -12,7 +12,7 @@
 						<div class="info-address mb-0 mb-md-5">
 							<h2><font color="#2a5caa"><b>ĐỊA CHỈ</b></font></h2>
 							<p><b>Công ty TNHH Lam Minh Anh</b></p>
-							<p>LM81-42.OT04 (Officetel), Tòa Landmark 81 Vinhomes Central Park, Số 720A Điện Biên Phủ, Phường 22, Quận Bình Thạnh, Tp Hồ Chí Minh</p>
+							<p>LM81 - 42.OT04 (Officetel), Tòa Landmark 81 Vinhomes Central Park, Số 720A Điện Biên Phủ, Phường 22, Quận Bình Thạnh, Tp Hồ Chí Minh</p>
 						</div>
 
 						<div class="information">

@@ -64,7 +64,7 @@
         <div class="box">
             <br>
             <p style="margin-left:10px;font-size:11pt;">
-                Chức năng quản lý tài sản - nợ của phần mềm Fiinves là công cụ hữu ích để hỗ trợ bạn đánh giá và xem lại việc quản lý tài sản của mình.
+                Chức năng quản lý tài sản - nợ của phần mềm BossStack Coaching là công cụ hữu ích để hỗ trợ bạn đánh giá và xem lại việc quản lý tài sản của mình.
             </p>
             <p style="margin-left:10px;font-size:14pt;color:#ff0000; text-transform: uppercase; font-weight: bold;">Biểu đồ tỷ trọng tài sản</p>
             <div class="row">

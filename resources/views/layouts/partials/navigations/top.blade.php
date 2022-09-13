@@ -15,8 +15,10 @@ if ($finish_at != ''){
     <!-- Notifications: style can be found in dropdown.less -->
     <li class="dropdown notifications-menu">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <i class="fa fa-bell"></i>
-            <span class="label label-warning">{{$count}}</span>
+            <!-- <i class="fa fa-bell"></i>
+            <span class="label label-warning">{{$count}}</span> -->
+            <img src="{{ asset('img/notifications-icon.png') }}" alt="">
+            <span class="notifications-new"></span>
         </a>
         <ul class="dropdown-menu">
             <li>

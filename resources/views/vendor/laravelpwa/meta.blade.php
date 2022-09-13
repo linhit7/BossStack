@@ -49,7 +49,7 @@
 
 <div class="add-button">
     <button class="closebtn">x</button>
-    <img src="{{ asset('images/phone.png') }}" class="float-phone"><span style="margin-left: 20px;"><span style="font-weight: 700;" id="installapp">Bấm để cài đặt APP ngay</span><br> để có thể truy cập nhanh hơn.</span>
+    <img src="{{ asset('images/phone.png') }}" class="float-phone"><span style="margin-left: 20px;"><span style="font-weight: 700;" id="installapp">Bấm cài đặt APP ngay</span><br> để có thể truy cập nhanh hơn.</span>
     <div class="pointer"> </div>
 </div>
 <style>

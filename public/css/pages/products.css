@@ -267,11 +267,11 @@ input[type=file].file_record_add + label strong{
 
 /* ---------------------------------------- */
 
-.box-dashboard.box-customer h3{
+.box-dashboard.box-customer h3 {
   margin-top: 0;
 }
 
-.title-2{
+.title-2 {
   display: flex;
   justify-content: flex-end;
 }
@@ -299,14 +299,14 @@ input[type=file].file_record_add + label strong{
 
 .filter-date .items:last-child button.btn-search {
   color: #fff;
-  background-color: #2D5DA9; 
+  background-color: #2d5da9;
   padding: 6px 39px;
   border: none;
 }
 
-.filter-date .items:last-child button.btn-search:hover{
+.filter-date .items:last-child button.btn-search:hover {
   color: #fff;
-  background-color: #2D5DA9; 
+  background-color: #2d5da9;
 }
 
 .filter-date .items:last-child button .icon {
@@ -396,18 +396,18 @@ input[type=file].file_record_add + label strong{
   font-family: "Roboto", sans-serif;
 }
 
-.box-dashboard.box-customer .view-detail{
+.box-dashboard.box-customer .view-detail {
   display: flex;
   justify-content: flex-end;
 }
 
-.box-dashboard.box-customer .view-detail a{
+.box-dashboard.box-customer .view-detail a {
   display: inline-block;
   padding: 6px 24px;
-  color: #2D5DA9;
-  border: 1px solid #2D5DA9;
+  color: #2d5da9;
+  border: 1px solid #2d5da9;
   margin-top: 27px;
-} 
+}
 
 /*@media only screen and (min-width: 992px){
     .filter-date .items:nth-child(1){
@@ -524,7 +524,7 @@ input[type=file].file_record_add + label strong{
 
 .box-customer .box-body {
   padding: 30px 20px;
-  background-color: #E7EAED;
+  background-color: #f4f5f7;
 }
 
 .box-customer .box-body .c3-tooltip {
@@ -563,8 +563,10 @@ input[type=file].file_record_add + label strong{
 }
 
 .box-customer .btn-income {
-  background-color: #ff7f0e;
-  border: none;
+  /* background-color: #ff7f0e;
+  border: none; */
+  color: #2d5da9;
+  text-decoration: underline;
 }
 
 .box-customer .btn-expense {
@@ -674,8 +676,8 @@ input[type=file].file_record_add + label strong{
 
 .box-customer .financial-planning .financial-planning-item {
   width: 300px;
-  background-color: #e6e6e6;
-  border: none;
+  background-color: #e7eaed;
+  border: 1px solid #d1d8dc;
   border-radius: 5px;
   padding: 5px 15px;
 }
@@ -712,33 +714,68 @@ input[type=file].file_record_add + label strong{
   .financial-planning
   .financial-planning-item
   .financial-planning-btn
+  .row {
+  display: flex;
+  align-items: center;
+}
+
+.box-customer .financial-planning-item .financial-planning-btn .row div {
+  margin-bottom: 0;
+}
+
+.box-customer
+  .financial-planning-item
+  .financial-planning-btn
+  .row
+  div:last-child {
+  text-align: center;
+}
+
+.box-customer
+  .financial-planning
+  .financial-planning-item
+  .financial-planning-btn
   a {
+  font-size: 14px;
+}
+
+.box-customer
+  .financial-planning
+  .financial-planning-item
+  .financial-planning-btn
+  a.btn {
   width: 100%;
-  font-size: 12px;
-  padding: 3px 10px;
+  font-size: 16px;
+  padding: 5px 10px;
 }
 
 .btn.btn-analytical {
-  background-color: #2e3192;
-  border: none;
+  background-color: #2d5da9;
+  border: 1px solid transparent;
+}
+
+.btn.btn-analytical:hover {
+  color: #2d5da9;
+  background-color: transparent;
+  border: 1px solid #2d5da9;
 }
 
 .box-customer .financial-planning a.add-objective {
   width: 100%;
   padding: 25px 12px;
-  background-color: #e6e6e6;
+  background-color: #e7eaed;
   border: none;
 }
 
 .box-customer .financial-planning a.add-objective i {
   font-size: 50px;
-  color: #ff7f0e;
+  color: #2d5da9;
 }
 
 .box-customer .financial-planning a.add-objective p {
   margin-bottom: 0;
   margin-top: 20px;
-  color: #ff7f0e;
+  color: #2d5da9;
   font-size: 18px;
 }
 

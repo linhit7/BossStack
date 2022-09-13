@@ -60,7 +60,7 @@
         </tr>
         <tr>
             <td colspan='2'>
-            <b>- Chủ tài khoản: CÔNG TY TNHH Lam Minh Anh</b>  
+            <b>- Chủ tài khoản: Công Ty TNHH Lam Minh Anh</b>  
             </td>
         </tr>
         <tr>

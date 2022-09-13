@@ -39,6 +39,9 @@
         sample1: 'Chi',
       },
     },
+    color: {
+        pattern: ['#F58220', '#2D5DA9']
+    },
     axis: {
       x: {
         type: 'timeseries',
@@ -169,6 +172,9 @@
       onclick: function (d, i) { console.log("onclick", d, i, this); },
       columns: listasset
     },
+    color: {
+        pattern: ['#F58220', '#2D5DA9']
+    },
     axis: {
       x: {
         label: 'Sepal.Width'
@@ -212,6 +218,9 @@
       onclick: function (d, i) { console.log("onclick", d, i, this); },
       columns: listasset
     },
+    color: {
+        pattern: ['#F58220', '#2D5DA9']
+    },
     axis: {
       x: {
         label: 'Sepal.Width'
@@ -244,6 +253,9 @@
       onmouseout: function (d, i) { console.log("onmouseout", d, i, this); },
       onclick: function (d, i) { console.log("onclick", d, i, this); },
       columns: listasset
+    },
+    color: {
+        pattern: ['#F58220', '#2D5DA9']
     },
     donut: {
         title: "Tổng tài sản thực",

@@ -72,11 +72,11 @@
                             </p>
                             <p class="highlight-text --italic"><b>Bạn có:</b></p>
                             <p>
-                                <i class="fas fa-check"></i>1 Buổi Coach 1:1 cùng coach Dòng tiền cùng Chau Pham.<br>
-                                <i class="fas fa-check"></i>1 Buổi Tư duy đầu tư cùng nhóm học viên chung nền tảng lợi thế.<br>
+                                <i class="fas fa-check"></i>1 Buổi Coach 1:1 cùng coach Chau Pham.<br>
+                                <i class="fas fa-check"></i>1 Buổi Tư duy đầu tư cùng nhóm học viên có chung nền tảng lợi thế.<br>
                                 <i class="fas fa-check"></i>1 năm sử dụng miễn phí tài khoản BossStack gói VIP – Giải pháp tài chính cho dòng tiền của bạn với giá: <b>11.988.000 đồng</b>.<br>
                                 <i class="fas fa-check"></i>1 chương trình làm sạch tài chính cơ bản và chuyên sâu.<br>
-                                <i class="fas fa-check"></i>Nhận được danh mục đầu tư khuyến nghị hàng tháng trong 1 năm.
+                                <i class="fas fa-check"></i>Nhận được danh mục đầu tư khuyến nghị hằng tháng trong 1 năm.
                             </p>
                             <p class="highlight-text">Hãy đến với khóa học <b>"Coaching 1:1 - Tiền Đẻ Ra Tiền"</b> tại BossStack!</p>
                             <p><i class="fas fa-check"></i>Khóa học "Coaching 1:1 - Tiền Đẻ Ra Tiền"  được chia sẻ bởi đội ngũ chuyên gia BossStack, được tổng hợp từ kiến thức chuyên môn và kinh nghiệm thực tiễn với phương pháp BossStack Money Pro, kiến thức nền tảng và nâng cao về tài chính đầu tư hiệu quả nhằm phát triển đa dòng tiền.</p>
@@ -215,7 +215,7 @@
                     <div class="col-md-12 col-12">
                         <div class="course-form-title">
                             <h1 class="title"><b>ĐĂNG KÝ CHỈ TRONG 30 GIÂY</b></h1>
-                            <h4 class="subtitle">CHƯƠNG TRÌNH CHỈ DÀNH RIÊNG CHO BẠN VÀ CHỈ BẠN</h4>
+                            <h4 class="subtitle">CHƯƠNG TRÌNH DÀNH RIÊNG CHO BẠN VÀ CHỈ BẠN</h4>
                         </div>
                         <form role="form" action="{{ route('coaching-store') }}?continue=true" method="post" id="frm">
                         {{ csrf_field() }}

@@ -40,8 +40,8 @@
 
 				<nav>
 					<div class="nav nav-tabs" id="nav-tab" role="tablist">
-						<a class="nav-item nav-link active" id="nav-1-tab" data-toggle="tab" href="#nav-1" role="tab" aria-controls="nav-1" aria-selected="true">Đăng ký tài khoản và cài đặt hệ thống</a>
-						<a class="nav-item nav-link" id="nav-2-tab" data-toggle="tab" href="#nav-2" role="tab" aria-controls="nav-2" aria-selected="false">Đăng nhập thông tin cần thiết</a>
+						<a class="nav-item nav-link active" id="nav-1-tab" data-toggle="tab" href="#nav-1" role="tab" aria-controls="nav-1" aria-selected="true">Đăng ký tài khoản</a>
+						<a class="nav-item nav-link" id="nav-2-tab" data-toggle="tab" href="#nav-2" role="tab" aria-controls="nav-2" aria-selected="false">Đăng nhập</a>
 						<a class="nav-item nav-link" id="nav-3-tab" data-toggle="tab" href="#nav-3" role="tab" aria-controls="nav-3" aria-selected="false">Sử dụng quản lý Dòng tiền cá nhân</a>
 						<a class="nav-item nav-link" id="nav-4-tab" data-toggle="tab" href="#nav-4" role="tab" aria-controls="nav-4" aria-selected="false">Vấn đề sự cố với hệ thống Dòng tiền cá nhân</a>
 					</div>
@@ -54,7 +54,7 @@
 						<h4><b>Bước 1: Đăng ký thông tin</b></h4>
 
 						<div class="ml-3">
-							<p>Để bắt đầu sử dụng dịch vụ của chúng tôi, bạn có thể đăng ký tài khoản thông qua trang <a href="https://bossstack.vn/login">Đăng nhập BossStack</a> / <a href="https://bossstack.vn/registerCustomer">Đăng ký BossStack</a>.</p>
+							<p>Để bắt đầu sử dụng dịch vụ của chúng tôi, bạn có thể đăng ký tài khoản thông qua trang <a target="_blank" href="https://bossstack.vn/login">Đăng nhập BossStack</a> / <a target="_blank" href="https://bossstack.vn/registerCustomer">Đăng ký BossStack</a>.</p>
 
 							<p>Bạn nhập các thông tin yêu cầu, chọn dịch vụ sản phẩm mình muốn sử dụng và nhấn “Đăng ký”. Ngoài các thông tin có dấu * là các thông tin bắt buộc phải điền, bạn có thể điền đầy đủ các thông tin khác để chúng tôi có thể hỗ trợ bạn tốt nhất.</p>
 
@@ -73,7 +73,7 @@
 							<ul>
 								<li><b>Thanh toán trực tiếp tại văn phòng công ty</b>, nhân viên của chúng tôi sẽ nhanh chóng liên hệ với bạn để hỗ trợ giao dịch sau khi bạn hoàn tất xác nhận.</li>
 								<li><b>Chuyển khoản ngân hàng</b> vào tài khoản của chúng tôi sau khi hoàn tất xác nhận <b>“Thanh toán”</b>, hãy lưu ý và đảm bảo những thông tin cần thiết theo hướng dẫn của chúng tôi.</li>
-								<li><b>Thanh toán qua Momo:</b> Bạn có thể tải ứng dụng Momo, đăng ký tài khoản và sử dụng tài khoản Momo để thực hiện thanh toán. Sau khi nhấn xác nhận “Thanh toán”, bạn sẽ được chuyển đến trang thanh toán của Momo. Mở ứng dụng Momo trên điện thoại để quét mã QR để thực hiện thanh toán theo hướng dẫn.</li>
+								<li><b>Thanh toán qua Momo:</b> Bạn có thể tải ứng dụng Momo, đăng ký tài khoản và sử dụng tài khoản Momo để thực hiện thanh toán. Sau khi nhấn xác nhận “Thanh toán”, bạn sẽ được chuyển đến trang thanh toán của Momo. Mở ứng dụng Momo trên điện thoại và quét mã QR để thực hiện thanh toán theo hướng dẫn.</li>
 							</ul>
 						</div>
 
@@ -92,21 +92,21 @@
 							</span>
 						</div>
 
-						<h4><b>Bước 3: Email xác nhận hoàn tất đăng ký thành công.</b></h4>
+						<h4><b>Bước 3: Email xác nhận hoàn tất đăng ký thành công</b></h4>
 							
 						<div class="ml-3">
 							<p>Ngay sau khi hoàn tất đăng ký, email thông tin đăng nhập và kích hoạt tài khoản sẽ được gửi tới địa chỉ email đã đăng ký đối với quý khách đã thanh toán online thành công.</p>
 
-							<p>Đối với hình thức thanh toán khác và cũng như đối với đăng ký thanh toán lỗi, chúng tôi sẽ gửi email xác nhận bạn đăng ký và hỗ trợ thực hiện giao dịch. Ngay sau khi hồ sơ đăng ký của bạn được tiếp nhận và kiểm tra hợp lệ, trong vòng 24h, kể từ lúc nhận được yêu cầu đăng ký của quý khách, chúng tôi sẽ liên hệ theo số điện thoại bạn đã đăng ký để xác nhận yêu cầu.</p>
+							<p>Đối với hình thức thanh toán khác và cũng như đối với đăng ký thanh toán lỗi, chúng tôi sẽ gửi email xác nhận bạn đăng ký và hỗ trợ thực hiện giao dịch. Ngay sau khi hồ sơ đăng ký của bạn được tiếp nhận và kiểm tra hợp lệ, trong vòng 24h, kể từ lúc nhận được yêu cầu đăng ký, chúng tôi sẽ liên hệ theo số điện thoại bạn đã đăng ký để xác nhận yêu cầu.</p>
 						</div>
 
 						<img src="{{ asset('img/advisory-10.jpg') }}">
 
-						<p><b>Bạn có thể nhờ hỗ trợ đăng ký tài khoản bằng cách liên hệ trực tiếp thông qua hotline của chúng tôi.</b></p>
+						<p><b>Bạn có thể nhờ hỗ trợ đăng ký tài khoản bằng cách liên hệ trực tiếp thông qua hotline 0918.905.500 của chúng tôi.</b></p>
 					</div>
 
 					<div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
-						<p>Sau khi nhận được email kích hoạt tài khoản hoàn tất đăng ký của chúng tôi, bạn có thể vào trang <a href="https://bossstack.vn/login">Đăng nhập</a> tài khoản của mình để bắt đầu sử dụng hệ thống.</p>
+						<p>Sau khi nhận được email kích hoạt tài khoản hoàn tất đăng ký của chúng tôi, bạn có thể vào trang <a target="_blank" href="https://bossstack.vn/login">Đăng nhập</a> tài khoản của mình để bắt đầu sử dụng hệ thống.</p>
 
 						<img src="{{ asset('img/advisory-8.jpg') }}">
 
@@ -124,7 +124,7 @@
 
 						<h4><b>Quản lý ví tiền, tài khoản hoặc quỹ tiền cá nhân của bạn</b></h4>
 
-						<p>Tạo, sở hữu và quản lý nhiều ví tiền cùng lúc giúp phục vụ cho nhiều mục đích khác nhau, như ví tiền sử dụng chi tiêu sinh hoạt hàng tháng, tài khoản ngân hàng, tín dụng, quỹ tiền tiết kiệm cho bản thân ...và nâng cao khả năng kiểm soát tài chính.</p>
+						<p>Tạo, sở hữu và quản lý nhiều ví tiền cùng lúc giúp phục vụ cho nhiều mục đích khác nhau, như ví tiền sử dụng chi tiêu sinh hoạt hằng tháng, tài khoản ngân hàng, tín dụng, quỹ tiền tiết kiệm cho bản thân ...và nâng cao khả năng kiểm soát tài chính.</p>
 
 						<p>Hướng dẫn thêm ví tiền/tài khoản:</p>
 
@@ -134,7 +134,7 @@
 							<li>Nhấn <b>“Lưu”</b> để hoàn tất.</li>
 						</ul>
 
-						<p>Hệ thống sẽ hiển thị Ví tiền/tài khoản đã tạo trên giao diện, bạn có thể tạo nhiều ví tiền/tài khoản và lựa chọn trong danh sách các tài khoản do mình quản lý.</p>
+						<p>Hệ thống sẽ hiển thị ví tiền/tài khoản đã tạo trên giao diện, bạn có thể tạo nhiều ví tiền/tài khoản và lựa chọn trong danh sách các tài khoản do mình quản lý.</p>
 
 						<p>Bạn cũng có thể linh hoạt điều chỉnh ví tiền/tài khoản bằng cách nhấn vào nút “Chỉnh sửa” ví tiền/tài khoản cần cập nhật lại thông tin.</p>
 
@@ -147,11 +147,11 @@
 						<ul style="list-style-type: none;">
 							<li class="mb-2">
 								<h5><b>Thêm mục thu nhập</b></h5>
-								Ghi nhận lại thu nhập trong ngày bằng cách nhấn vào nút “Thêm thu nhập” trên giao diện  => nhập thông tin: ngày, danh mục loại thu nhập, chi tiết, số tiền, ví tiền/tài khoản giao dịch, ghi chú thông tin liên quan  => Nhấn “Lưu” để hoàn tất.
+								Ghi nhận lại thu nhập trong ngày bằng cách nhấn vào nút “Thêm thu nhập” trên giao diện  => Nhập thông tin: ngày, danh mục loại thu nhập, chi tiết, số tiền, ví tiền/tài khoản giao dịch, ghi chú thông tin liên quan  => Nhấn “Lưu” để hoàn tất.
 							</li>
 							<li class="mb-2">
 								<h5><b>Thêm mục chi tiêu</b></h5>
-								Ghi nhận lại mục chi tiêu trong ngày bằng cách nhấn vào nút “Thêm chi phí” trên giao diện =>  nhập thông tin: ngày, danh mục loại chi phí, chi tiết, số tiền, ví tiền/tài khoản giao dịch, ghi chú thông tin liên quan  => Nhấn “Lưu” để hoàn tất.
+								Ghi nhận lại mục chi tiêu trong ngày bằng cách nhấn vào nút “Thêm chi phí” trên giao diện =>  Nhập thông tin: ngày, danh mục loại chi phí, chi tiết, số tiền, ví tiền/tài khoản giao dịch, ghi chú thông tin liên quan  => Nhấn “Lưu” để hoàn tất.
 							</li>
 							<li class="mb-2">
 								<h5><b>Theo dõi các khoản nợ - cho vay</b></h5>
@@ -165,19 +165,13 @@
 
 						<h4><b>Báo cáo số liệu trực quan và phân tích thói quen chi tiêu của bản thân</b></h4>
 
-						<p>Chức năng cho phép hệ thống sẽ tự động thực hiện tổng hợp thu chi để hoàn thành báo cáo với biểu đồ rõ ràng, trực quan về tình hình thu chi của bạn theo ngày, tháng, năm giúp bạn dễ dàng theo dõi.</p>
-
-						<p>Hệ thống cũng tự động đưa ra bảng phân tích danh mục thu chi giúp bạn nhanh chóng xác định được danh mục chi tiêu, thói quen tiêu dùng của mình để điều chỉnh cho phù hợp.</p>
-
-						<h4><b>Báo cáo số liệu trực quan và phân tích thói quen chi tiêu của bản thân</b></h4>
-
 						<p>Chức năng cho phép hệ thống sẽ tự động thực hiện tổng hợp thu chi để hoàn thành báo cáo với biểu đồ rõ ràng, trực quan về tình hình thu chi của bạn theo ngày, tháng, năm giúp bạn dễ dàng theo dõi. </p>
 
 						<p>Hệ thống cũng tự động đưa ra bảng phân tích danh mục thu chi giúp bạn nhanh chóng xác định được danh mục chi tiêu, thói quen tiêu dùng của mình để điều chỉnh cho phù hợp.</p>
 
 						<h4><b>Thiết lập mục tiêu và phân tích, lên kế hoạch tài chính tương lai cho bản thân.</b></h4>
 
-						<p>Song song đó, hệ thống chúng tôi có thể giúp bạn định hình kế hoạch tài chính tương lai của riêng bản thân chỉ với các bước đơn giản dễ thực hiện.</p>
+						<p>Song song đó, hệ thống của chúng tôi có thể giúp bạn định hình kế hoạch tài chính tương lai của riêng bản thân chỉ với các bước đơn giản dễ thực hiện.</p>
 
 						<p>Ở mục “Kế hoạch tài chính tương lai” trong trang <b>“Quản lý dòng tiền thu chi”</b> hoặc trang <b>“Mục tiêu tài chính”</b>, bạn nhấn chọn “Thêm mục tiêu”. Chỉ cần nhập thông tin mục tiêu của mình và nhấn “Phân tích”, hệ thống sẽ tự động tính toán hiệu quả để cho ra những bảng phân tích tài chính tương lai chính xác nhất.</p>
 
@@ -185,7 +179,7 @@
 
 						<h4><b>Tổng quan</b></h4>
 
-						<p>Trang chức năng <b>“Tổng quan”</b> với các tính năng tự động hiển thị thông tin, thống kê và báo cáo, giúp bạn có cái nhìn tổng quát, nhanh chóng nhất về tình hình dòng tiền cá nhân của bản thân theo thời gian Ngày/Tháng/Năm.</p>
+						<p>Trang chức năng <b>“Tổng quan”</b> với các tính năng tự động hiển thị thông tin, thống kê và báo cáo, giúp bạn có cái nhìn tổng quát, nhanh chóng nhất về tình hình dòng tiền cá nhân của bản thân theo thời gian ngày, tháng, năm.</p>
 					</div>
 
 					<div class="tab-pane fade" id="nav-4" role="tabpanel" aria-labelledby="nav-4-tab">
@@ -284,7 +278,7 @@
 				<p>Nếu khách hàng có nhu cầu tư vấn gia tăng dòng tiền cá nhân, xin vui lòng liên hệ:</p>
 				<ul>
 					<li><b>Công ty TNHH Lam Minh Anh</b></li>
-					<li><b>Địa chỉ:</b>LM81-42.OT04 (Officetel), Tòa Landmark 81 Vinhomes Central Park, Số 720A Điện Biên Phủ, Phường 22, Quận Bình Thạnh, Tp Hồ Chí Minh</li>
+					<li><b>Địa chỉ: </b>LM81 - 42.OT04 (Officetel), Tòa Landmark 81 Vinhomes Central Park, Số 720A Điện Biên Phủ, Phường 22, Quận Bình Thạnh, Tp Hồ Chí Minh</li>
 					<li><b>Số điện thoại:</b> 0918.905.500 (Zalo/Viber/Skype)</li>
 					<li><b>Email:</b> info@bossstack.vn</li>
 				</ul>

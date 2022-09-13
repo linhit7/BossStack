@@ -52,7 +52,7 @@
                                 <!-- <img src="{{ asset('img/text-1-w.png') }}"> -->
                                 <h1>BossStack Coaching</h1>
                                 <h4 style="color: #fff; font-size: 23px; font-weight: bold;">TƯ VẤN CHUYỂN ĐỔI SỐ TÀI CHÍNH</h4>
-                                <p>Xây dựng Chiến lược Quản lý tài chính và Kế hoạch <br/>Gia tăng Lợi nhuận lâu dài ngay bây giờ!</p>
+                                <p>Xây dựng Chiến lược Quản lý Tài chính và Kế hoạch <br/>Gia tăng Lợi nhuận lâu dài ngay bây giờ!</p>
                                 <div class="button-banner">
                                     <!-- <a class="btn btn-primary btn-banner" href="{{ route('personalcash') }}">Tìm hiểu ngay</a> -->
                                     <a class="btn btn-primary btn-banner" href="{{ route('contact') }}">Liên Hệ BossStack</a>
@@ -142,7 +142,7 @@
                         <div class="why-choose-us-right">
                             <!-- <img src="{{ asset('img/text-2.png') }}"> -->
                             <h3>Tại sao doanh nghiệp cần BossStack Coaching?</h3>
-                            <h4>Khó khăn trong quản lý dòng tiền của doanh nghiệp</h4>
+                            <h4>Khó khăn trong Quản lý Dòng tiền của doanh nghiệp</h4>
                             <ul style="margin-bottom: 20px;">
                                 <li>
                                     <span class="icon"><img src="{{ asset('img/icon-4.png') }}"></span>
@@ -161,7 +161,7 @@
                                     <span class="text align-self-center">Thiếu công cụ quản lý dòng tiền</span>
                                 </li>
                             </ul>
-                            <h4>Khó Khăn trong Vận Hành và Kiểm soát Thất Thoát</h4>
+                            <h4>Khó khăn trong Vận hành và Kiểm soát Thất thoát</h4>
                             <ul>
                                 <li>
                                     <span class="icon"><img src="{{ asset('img/icon-4.png') }}"></span>
@@ -272,7 +272,7 @@
                             <div class="name mb-2">Nguyễn Đỗ Cẩm Bình</div>
                             <div class="subject mb-2">Trưởng phòng kinh doanh, Công ty BĐS Him Lam</div>
                             <div class="content">
-                                <p>Tôi từng nghĩ các ứng dụng quản lý tiền có thể chỉ là là một công cụ nhưng BossStack Coaching đã cho tôi cách nhìn khác. Đây thật sự là một phần mềm có thể tính toán từng đồng tiền nhỏ cho đến số tiền lớn, mà tính toán thủ công sẽ không khả thi. Nó trở thành một người bạn đáng tin cậy khi giữ gìn và phát triển tiền bạc của tôi tốt hơn. Tôi chú ý nhất đến phần tính số tiền còn thiếu hụt cho kỳ hưu trí. Về dòng tiền, tôi thiết lập các mục tiêu tài chính chi tiết, quản lý thu chi hằng ngày, quản lý tài sản và nợ, phân tích và theo dõi tiến độ thực hiện các kế hoạch dòng tiền, và điểm đặc biệt là các gợi ý đầu tư dài hạn phù hợp.</p>
+                                <p>Tôi từng nghĩ các ứng dụng quản lý tiền có thể chỉ là một công cụ nhưng BossStack Coaching đã cho tôi cách nhìn khác. Đây thật sự là một phần mềm có thể tính toán từng đồng tiền nhỏ cho đến số tiền lớn, mà tính toán thủ công sẽ không khả thi. Nó trở thành một người bạn đáng tin cậy khi giữ gìn và phát triển tiền bạc của tôi tốt hơn. Tôi chú ý nhất đến phần tính số tiền còn thiếu hụt cho kỳ hưu trí. Về dòng tiền, tôi thiết lập các mục tiêu tài chính chi tiết, quản lý thu chi hằng ngày, quản lý tài sản và nợ, phân tích và theo dõi tiến độ thực hiện các kế hoạch dòng tiền, và điểm đặc biệt là các gợi ý đầu tư dài hạn phù hợp.</p>
                             </div>
                         </div>
                         <div class="item">
@@ -292,7 +292,7 @@
                             <div class="name mb-2">Huỳnh Thu Ái</div>
                             <div class="subject mb-2">Nhà cố vấn - Đào Tạo Quản Lý Hệ Thống Doanh Nghiệp AMS</div>
                             <div class="content">
-                                <p>Sau một thời gian sử dụng BossStack Coaching, tôi đã xem đây như là một công cụ để thực hiện lên kế hoạch phân bổ tài sản đến phân bổ các dòng tiền lợi nhuận và các ví mục tiêu tài chính khác nhau. Đồng thời, theo dõi phân tích và đánh giá tiến độ thực hiện cũng là một trong những tính năng giúp tôi dễ dàng quản lý toàn bộ danh mục đầu tư của mình. Tôi nói với nhiều người rằng, tôi kiếm được nhiều tiền hơn nữa khi dùng BossStack Coaching. Đơn giản vì nếu các nguồn tiền được phân bổ hợp lý, tiền được sử dụng đúng. Và trong từng mục thu chi, từng mục tiêu tài chính, tôi có thể thấy chúng được tối ưu chưa. Sẽ có hai điều mà tôi phải thực hiện cùng lúc, một là cần phải kiếm thêm tiền để đổ thêm vào các mục tiêu, hai là tôi phải cắt giảm đi những chi phí ẩn hay chi phí không cần thiết mà trước đây mình không để ý đến. Mọi thứ điều nằm trong tầm kiểm soát, như thế tôi có được an toàn tài chính.</p>
+                                <p>Sau một thời gian sử dụng BossStack Coaching, tôi đã xem đây như là một công cụ để thực hiện lên kế hoạch phân bổ tài sản đến phân bổ các dòng tiền lợi nhuận và các ví mục tiêu tài chính khác nhau. Đồng thời, theo dõi phân tích và đánh giá tiến độ thực hiện cũng là một trong những tính năng giúp tôi dễ dàng quản lý toàn bộ danh mục đầu tư của mình. Tôi nói với nhiều người rằng, tôi kiếm được nhiều tiền hơn nữa khi dùng BossStack Coaching. Đơn giản vì nếu các nguồn tiền được phân bổ hợp lý, thì tiền sẽ được sử dụng đúng. Và trong từng mục thu chi, từng mục tiêu tài chính, tôi có thể thấy chúng được tối ưu chưa. Sẽ có hai điều mà tôi phải thực hiện cùng lúc, một là cần phải kiếm thêm tiền để đổ thêm vào các mục tiêu, hai là tôi phải cắt giảm đi những chi phí ẩn hay chi phí không cần thiết mà trước đây mình không để ý đến. Mọi thứ đều nằm trong tầm kiểm soát, như thế tôi có được an toàn tài chính.</p>
                             </div>
                         </div>
                     </div>

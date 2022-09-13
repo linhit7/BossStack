@@ -28,7 +28,7 @@
 
 						<li>Giảm chi phí đồ chơi bằng cách chọn lọc đồ chơi phù hợp, trao đổi, thanh lý những món không cần đến và thử làm đồ chơi thủ công.</li>
 
-						<li>Giảm chi phí đồ dùng gia đình bằng cách tái chế, mua hàng đúng thời điểm và bảo quản đồ dùng đúng cách,</li>
+						<li>Giảm chi phí đồ dùng gia đình bằng cách tái chế, mua hàng đúng thời điểm và bảo quản đồ dùng đúng cách.</li>
 
 						<li>Giảm chi phí đi lại bằng cách sử dụng phương tiện công cộng và các ứng dụng xe công nghệ.</li>
 

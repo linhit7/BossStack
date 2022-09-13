@@ -292,7 +292,7 @@
         <div class="box">
             <br>
             <p style="margin-left:3px;font-size:11pt;">
-                Chức năng phân tích dòng tiền cá nhân là công cụ kiểm soát dòng tiền thu chi, dòng tiền đầu tư,... Đồng thời hệ thống Fiinves hỗ trợ bạn đánh giá lại tất cả các dòng tiền hiện tại có theo sát các mục tiêu tài chính mà bạn đã đặt ra hay không.
+                Chức năng phân tích dòng tiền cá nhân là công cụ kiểm soát dòng tiền thu chi, dòng tiền đầu tư,... Đồng thời hệ thống BossStack Coaching hỗ trợ bạn đánh giá lại tất cả các dòng tiền hiện tại có theo sát các mục tiêu tài chính mà bạn đã đặt ra hay không.
             </p>
 
             <div class="cash-analysis">
