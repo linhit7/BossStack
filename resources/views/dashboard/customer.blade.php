@@ -63,7 +63,7 @@
 		<div class="box box-dashboard box-customer" style="padding-top: 0px; margin-bottom: 38px;">
 			<div class="box-body">
 				<div class="title">
-                    <h3><b>DÒNG TIỀN CỦA TÔI</b></h3>
+                    <h3><b>dòng tiền của tôi</b></h3>
                     <div class="title-2">
                         <div class="filter-date">
                             <div class="items">
@@ -73,7 +73,7 @@
                                 <input type='text' class="form-control" name="fromDate" id='fromDate' value="{{ old('fromDate') == "" ? $fromDate : old('fromDate') }}"/>
                             </div>
                             <div class="items">
-                                <label style="color: #2D5DA9; text-align: center;">đến:</label>
+                                <label style="text-align: center;">đến:</label>
                             </div>
                             <div class="items">
                                 <input type='text' class="form-control" name="toDate" id='toDate' value="{{ old('toDate') == "" ? $toDate : old('toDate') }}"/>
@@ -96,7 +96,7 @@
 
         <div class="box box-dashboard box-customer" style="padding-top: 0px; margin-bottom: 38px;">
             <div class="box-body">
-                <h3><b>VÍ MỤC TIÊU TÀI CHÍNH</b></h3>
+                <h3><b>ví mục tiêu tài chính</b></h3>
                 <div class="financial-planning">
                     <div class="row">
                         <div class="col-md-12" style="text-align: right;">
@@ -108,7 +108,7 @@
                             <div class="financial-planning-item">
                                 <a class="btn btn-default add-objective" href="{{ route('cashplans-add') }}" title="">
                                     <i class="fas fa-plus-circle"></i> 
-                                    <p><b>Thêm ví mục tiêu</b></p>
+                                    <p>Thêm ví mục tiêu</p>
                                 </a>
                             </div>
                             
@@ -141,38 +141,38 @@
                                         </tbody>
                                     </table>
 
-                                    <h4><b>VÍ {{ mb_strtoupper($plantypes[$item->plantype]) }}</b></h4>
+                                    <h4>Ví {{ $plantypes[$item->plantype] }}</h4>
                                     <table width="100%">
                                         <tbody>
                                             <tr>
-                                                <th><b>Số tuổi mục tiêu</b></th>
-                                                <td class="text-right"><b><font color='red'>{{ $item->planage }}</font> TUỔI</b></td>
+                                                <th>Số tuổi mục tiêu</th>
+                                                <td class="text-right"><font color='#F52020'>{{ $item->planage }}</font> TUỔI</td>
                                             </tr>
                                             <tr>
-                                                <th><b>Số tiền mục tiêu</b></th>
-                                                <td class="text-right"><b><font color='red'>{{ formatNumber($item->requireamount * $item->requireamountunittype, 1, 0, 0) }}</font></b></td>
+                                                <th>Số tiền mục tiêu</th>
+                                                <td class="text-right"><font color='#F52020'>{{ formatNumber($item->requireamount * $item->requireamountunittype, 1, 0, 0) }}</font></td>
                                             </tr>
                                             <tr>
-                                                <th><b>Vốn hiện tại</b></th>
-                                                <td class="text-right"><b><font color='#1eb40f'>{{ formatNumber($item->totalcurrentamount, 1, 0, 0) }}</font></b></td>
+                                                <th>Vốn hiện tại</th>
+                                                <td class="text-right"><font color='#1eb40f'>{{ formatNumber($item->totalcurrentamount, 1, 0, 0) }}</font></td>
                                             </tr>
                                             <tr>
-                                                <th><b>Số tiền còn thiếu</b></th>
-                                                <td class="text-right"><b><font color='#ff423e'>{{ formatNumber(($item->requireamount*intval($item->requireamountunittype) - $item->totalcurrentamount), 1, 0, 0) }}</font></b></td>
+                                                <th>Số tiền còn thiếu</th>
+                                                <td class="text-right"><font color='#F52020'>{{ formatNumber(($item->requireamount*intval($item->requireamountunittype) - $item->totalcurrentamount), 1, 0, 0) }}</font></td>
                                             </tr>
                                             <tr>
-                                                <th><b>Thời gian hoàn thiện</b></th>
-                                                <td class="text-right"><b><font color='red'>{{ $item->planage - $item->currentage }}</font> NĂM</b></td>
+                                                <th>Thời gian hoàn thiện</th>
+                                                <td class="text-right"><font color='#F52020'>{{ $item->planage - $item->currentage }}</font> NĂM</td>
                                             </tr>
                                         </tbody>
                                     </table>
 
                                     <div class="financial-planning-btn">
                                         <div class="row">
-                                            <div class="col-md-8 col-xs-8">
+                                            <div class="col-md-7 col-xs-7">
                                                 <a class="btn btn-primary btn-analytical" target="blank" href="{{ route('cashplans-analysis',['id'=> $item->id]) }}">Phân tích</a>
                                             </div>
-                                            <div class="col-md-4 col-xs-4">
+                                            <div class="col-md-5 col-xs-5">
                                                 <a class="btn-income" target="blank" href="{{ route('cashplans-edit',['id'=> $item->id]) }}">Chỉnh sửa</a>
                                             </div>
                                         </div>
@@ -197,7 +197,7 @@
 
         <div class="box box-dashboard box-customer">
 			<div class="box-body">
-                <h3><b>THEO DÕI CÁC TÀI SẢN</b></h3>
+                <h3><b>theo dõi các tài sản</b></h3>
                 
                 <div class="my-assets">
                     <div class="row">
@@ -205,16 +205,16 @@
                             <div class="report">
                                 <div class="row">
                                     <div class="col-md-4 col-xs-12" style="text-align: center;">
-                                        <div id="rptasset1" style="margin-bottom: 12px;"></div>
-                                        <font size='3' color="#2d3194"><b>Nợ</b></font>
+                                        <p class="title">Nợ</p>
+                                        <div id="rptasset1" style="margin-top: 12px;"></div>
                                     </div>
                                     <div class="col-md-4 col-xs-12" style="text-align: center;">
-                                        <div id="rptasset2" style="margin-bottom: 12px;"></div>
-                                        <font size='3' color="#2d3194"><b>Tài sản</b></font>
+                                        <p class="title">Tài sản</p>
+                                        <div id="rptasset2" style="margin-top: 12px;"></div>
                                     </div>
                                     <div class="col-md-4 col-xs-12" style="text-align: center;">
-                                        <div id="rptasset3" style="margin-bottom: 12px;"></div>
-                                        <font size='3' color="#2d3194"><b>Tổng tài sản thực</b></font>
+                                        <p class="title">Tổng tài sản thực</p>
+                                        <div id="rptasset3" style="margin-top: 12px;"></div>
                                     </div>
                                 </div>
                             </div>

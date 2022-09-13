@@ -269,6 +269,8 @@ input[type=file].file_record_add + label strong{
 
 .box-dashboard.box-customer h3 {
   margin-top: 0;
+  margin-bottom: 34px;
+  text-transform: capitalize;
 }
 
 .title-2 {
@@ -277,7 +279,7 @@ input[type=file].file_record_add + label strong{
 }
 
 .filter-date {
-  width: 40%;
+  width: 500px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -293,7 +295,13 @@ input[type=file].file_record_add + label strong{
   width: calc(50% / 2);
 }
 
+.filter-date .items:nth-child(2n) input,
 .filter-date .items label {
+  color: #3c4248;
+}
+
+.filter-date .items label {
+  font-weight: 500;
   margin-bottom: 0;
 }
 
@@ -659,7 +667,6 @@ input[type=file].file_record_add + label strong{
 .box-customer .financial-planning .financial-planning-list .wrap {
   width: 8000px;
   display: flex;
-  align-items: flex-start;
   column-gap: 15px;
   padding-bottom: 15px;
 }
@@ -675,17 +682,23 @@ input[type=file].file_record_add + label strong{
 } */
 
 .box-customer .financial-planning .financial-planning-item {
-  width: 300px;
+  width: 286px;
   background-color: #e7eaed;
   border: 1px solid #d1d8dc;
   border-radius: 5px;
-  padding: 5px 15px;
+  padding: 24px 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .box-customer .financial-planning .financial-planning-item h4 {
+  color: #3c4248;
   margin-top: 10px;
   margin-bottom: 20px;
   font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 500;
 }
 
 /*.box-customer .financial-planning .financial-planning-item table tr:first-child{
@@ -693,14 +706,22 @@ input[type=file].file_record_add + label strong{
 }*/
 
 .box-customer .financial-planning .financial-planning-item table tr {
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #d1d8dc;
+  border-bottom: 1px solid #d1d8dc;
 }
 
 .box-customer .financial-planning .financial-planning-item table tr th,
 .box-customer .financial-planning .financial-planning-item table tr td {
   height: 35px;
   font-size: 13px;
+}
+
+.box-customer .financial-planning .financial-planning-item table tr th {
+  font-weight: 400;
+}
+
+.box-customer .financial-planning .financial-planning-item table tr td {
+  font-weight: 500;
 }
 
 .box-customer
@@ -737,6 +758,7 @@ input[type=file].file_record_add + label strong{
   .financial-planning-btn
   a {
   font-size: 14px;
+  font-weight: 500;
 }
 
 .box-customer
@@ -747,6 +769,7 @@ input[type=file].file_record_add + label strong{
   width: 100%;
   font-size: 16px;
   padding: 5px 10px;
+  font-weight: 400;
 }
 
 .btn.btn-analytical {
@@ -768,7 +791,7 @@ input[type=file].file_record_add + label strong{
 }
 
 .box-customer .financial-planning a.add-objective i {
-  font-size: 50px;
+  font-size: 48px;
   color: #2d5da9;
 }
 
@@ -786,6 +809,16 @@ input[type=file].file_record_add + label strong{
   fill: #ff0000 !important;
   font-size: 12px;
   font-family: "Roboto", sans-serif;
+}
+
+.my-assets .report .title {
+  color: #3c4248;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#rptasset3 .c3-chart-arcs-title tspan {
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {

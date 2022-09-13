@@ -262,7 +262,7 @@
         label: {
           show: false 
         },
-        width: 25
+        width: 25,
     },
     size: {
         height: 220,
@@ -273,7 +273,7 @@
     }        
   });
 
-  d3.select("#rptasset3 .c3-chart-arcs-title").append("tspan").attr("dy", 25).attr("x", 0).attr("class", "second-title").text(formatNumberDecimal(total_asset_0-total_asset_1, 0));
+  d3.select("#rptasset3 .c3-chart-arcs-title").append("tspan").attr("dy", 18).attr("x", 0).attr("class", "second-title").text(formatNumberDecimal(total_asset_0-total_asset_1, 0));
 
 @endif
 
