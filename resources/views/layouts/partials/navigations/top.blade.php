@@ -15,22 +15,18 @@ if ($finish_at != ''){
     <!-- Notifications: style can be found in dropdown.less -->
     <li class="dropdown notifications-menu">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <!-- <i class="fa fa-bell"></i>
-            <span class="label label-warning">{{$count}}</span> -->
             <img src="{{ asset('img/notifications-icon.png') }}" alt="">
             <span class="notifications-new"></span>
         </a>
         <ul class="dropdown-menu">
-            <li>
-                <!-- inner menu: contains the actual data -->
-                <ul class="menu">
-                    @if ($numday > 0 and $numday < 7)
-                    <li>
+            @if ($numday > 0 and $numday < 7)
+                <li>
                     &nbsp;&nbsp;<i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;Thời hạn sử dụng: {{ $finish_at }}
-                    </li>
-                    @endif 
-                </ul>
-            </li>
+                </li>
+                <li>
+                    &nbsp;&nbsp;<i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;Thời hạn sử dụng: {{ $finish_at }}
+                </li>
+            @endif 
         </ul>
     </li>
 </ul>

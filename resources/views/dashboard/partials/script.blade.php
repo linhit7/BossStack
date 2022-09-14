@@ -1,7 +1,14 @@
 <script type="text/javascript">
   // notifications
   let notificationsMenu = document.querySelector(".dropdown-menu");
-  console.log("notificationsMenu", notificationsMenu)
+  let notificationsMenuItem = notificationsMenu.querySelectorAll("li").length;
+  let notificationsNew = document.querySelector(".notifications-new");
+  if (notificationsMenuItem > 0) {
+    notificationsNew.style.display = "block";
+  } else {
+    notificationsNew.style.display = "none";
+  }
+
 
 
   // financial planning
