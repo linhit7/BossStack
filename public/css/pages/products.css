@@ -660,14 +660,12 @@ input[type=file].file_record_add + label strong{
   margin-bottom: 10px;
 }
 
-.box-customer .financial-planning .financial-planning-list {
+/* .box-customer .financial-planning .financial-planning-list {
   overflow-x: auto;
-}
+} */
 
 .box-customer .financial-planning .financial-planning-list .wrap {
-  width: 8000px;
   display: flex;
-  column-gap: 15px;
   padding-bottom: 15px;
 }
 
@@ -682,11 +680,12 @@ input[type=file].file_record_add + label strong{
 } */
 
 .box-customer .financial-planning .financial-planning-item {
-  width: 286px;
+  min-width: 286px;
   background-color: #e7eaed;
   border: 1px solid #d1d8dc;
   border-radius: 5px;
   padding: 24px 17px;
+  margin-right: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;

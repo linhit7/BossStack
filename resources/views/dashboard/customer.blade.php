@@ -234,5 +234,6 @@
 @endsection
 
 @section('scripts')
+@include('dashboard.partials.script')
 @include('dashboard.partials.script_customer')
 @endsection
