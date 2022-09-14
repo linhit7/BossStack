@@ -1,4 +1,10 @@
 <script type="text/javascript">
+  // notifications
+  let notificationsMenu = document.querySelector(".dropdown-menu");
+  console.log("notificationsMenu", notificationsMenu)
+
+
+  // financial planning
   let selectPlanList = document.querySelector(".financial-planning-list");
   let widthPlanList = selectPlanList.clientWidth;
   let widthPlanItem = document.querySelector(".financial-planning-item").offsetWidth;
