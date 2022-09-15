@@ -205,6 +205,10 @@ textarea.form-control,
     background-color: #fff;
   }
 
+  .sidebar-open .main-header .navbar {
+    margin-left: 230px;
+  }
+
   .main-header .navbar-static-top .sidebar-toggle,
   .navbar-nav > .notifications-menu .dropdown-toggle {
     width: 50px;
@@ -490,11 +494,8 @@ textarea.form-control,
 @media only screen and (max-width: 768px) {
   .sidebar-open .main-sidebar {
     position: fixed;
+    overflow-y: auto;
     padding-top: 0 !important;
-  }
-
-  .sidebar-open .main-sidebar .sidebar {
-    padding-top: 50px;
   }
 }
 
@@ -1061,4 +1062,10 @@ table tr td {
 
 .main-footer img {
   max-width: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-footer {
+    justify-content: flex-start;
+  }
 }
