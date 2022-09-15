@@ -21,7 +21,7 @@
                 <li class="menu">
                     <a href="#" onclick="return false;">Coaching doanh nghiệp</a>
                     <ul class="menu-item">
-                        <li><a href="{{ route('bossstack-startup') }}">BossStack - Startups</a></li>
+                        <li><a href="{{ route('bossstack-startup') }}">BossStack - Start-up</a></li>
                         <li><a href="{{ route('bossstack-smes') }}">BossStack - SMEs</a></li>
                         <li><a href="{{ route('bossstack-bigcorp') }}">BossStack - Big Corporations/Holdings</a></li>
                     </ul>
@@ -97,7 +97,7 @@
                         <li class="menu">
                             <a href="#" onclick="return false;">Coaching doanh nghiệp</a>
                             <ul class="menu-item">
-                                <li><a href="{{ route('bossstack-startup') }}">BossStack - Startups</a></li>
+                                <li><a href="{{ route('bossstack-startup') }}">BossStack - Start-up</a></li>
                                 <li><a href="{{ route('bossstack-smes') }}">BossStack - SMEs</a></li>
                                 <li><a href="{{ route('bossstack-bigcorp') }}">BossStack - Big Corporations/Holdings</a></li>
                             </ul>

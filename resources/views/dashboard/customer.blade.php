@@ -81,7 +81,6 @@
                             <div class="items">
                                 <button class="btn btn-primary btn-search">
                                     <span class="text">Lọc</span>
-                                    <span class="icon"><i class="fa fa-search" aria-hidden="true"></i></span>
                                 </button>
                             </div>
                         </div>

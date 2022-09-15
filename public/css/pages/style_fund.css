@@ -1331,6 +1331,10 @@ p {
   border-radius: 20px;
 }
 
+.login .login-box .card-body .card-img {
+  max-width: 350px;
+}
+
 .login .login-box .card-body .login-logo {
   margin-bottom: 50px;
 }
@@ -2301,9 +2305,9 @@ p {
   .useful-information
   .useful-information-content
   .list
-  li{
-    color: #2a5caa;
-  }
+  li {
+  color: #2a5caa;
+}
 
 .element-useful-information
   .useful-information

@@ -1,14 +1,18 @@
 <script type="text/javascript">
   // notifications
-  let notificationsMenu = document.querySelector(".dropdown-menu");
-  let notificationsMenuItem = notificationsMenu.querySelectorAll("li").length;
-  let notificationsNew = document.querySelector(".notifications-new");
-  if (notificationsMenuItem > 0) {
-    notificationsNew.style.display = "block";
-  } else {
-    notificationsNew.style.display = "none";
-  }
-
+  let navbarNotifications = document.querySelectorAll(".navbar-custom-menu");
+  navbarNotifications.forEach(element => {
+    let notificationsMenu = element.querySelector(".dropdown-menu");
+    let notificationsMenuItem = notificationsMenu.querySelectorAll("li").length;
+    let notificationsNew = element.querySelectorAll(".notifications-new");
+    notificationsNew.forEach(elementChild => {
+      if (notificationsMenuItem > 0) {
+        elementChild.style.display = "block";
+      } else {
+        elementChild.style.display = "none";
+      }
+    })
+  });
 
 
   // financial planning

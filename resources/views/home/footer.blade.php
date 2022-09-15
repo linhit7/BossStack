@@ -24,7 +24,7 @@
                     <div class="menu-footer">
                         <h4>Coaching doanh nghiệp</h4>
                         <ul>
-                            <li><a href="{{ route('bossstack-startup') }}">BossStack - Startups</a></li>
+                            <li><a href="{{ route('bossstack-startup') }}">BossStack - Start-up</a></li>
                             <li><a href="{{ route('bossstack-smes') }}">BossStack - SMEs</a></li>
                             <li><a href="{{ route('bossstack-bigcorp') }}">BossStack - Big Corporations/Holdings</a></li>
                         </ul>

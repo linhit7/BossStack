@@ -308,17 +308,13 @@ input[type=file].file_record_add + label strong{
 .filter-date .items:last-child button.btn-search {
   color: #fff;
   background-color: #2d5da9;
-  padding: 6px 39px;
+  padding: 8px 39px;
   border: none;
 }
 
 .filter-date .items:last-child button.btn-search:hover {
   color: #fff;
   background-color: #2d5da9;
-}
-
-.filter-date .items:last-child button .icon {
-  display: none;
 }
 
 .box-dashboard.box-customer .market {
@@ -450,28 +446,16 @@ input[type=file].file_record_add + label strong{
 }
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
-  .filter-date .items:first-child {
-    flex-basis: calc(25% - 5px);
+  .filter-date {
+    width: 420px;
   }
 
   .filter-date .items:nth-child(2n) {
-    flex-basis: calc(calc(60% / 2) - 5px);
+    flex-basis: calc(calc(50% / 2) - 5px);
   }
 
-  .filter-date .items:nth-child(3) {
-    flex-basis: calc(5% - 5px);
-  }
-
-  .filter-date .items:last-child {
-    flex-basis: calc(10% - 5px);
-  }
-
-  .filter-date .items:last-child button .text {
-    display: none;
-  }
-
-  .filter-date .items:last-child button .icon {
-    display: block;
+  .filter-date .items:last-child button.btn-search {
+    padding: 8px 22px;
   }
 }
 
@@ -485,7 +469,7 @@ input[type=file].file_record_add + label strong{
   }
 
   .filter-date .items:nth-child(2n + 1) {
-    flex-basis: calc(30% - 5px);
+    width: calc(30% - 5px);
   }
 
   .filter-date .items:nth-child(3) {
@@ -494,11 +478,16 @@ input[type=file].file_record_add + label strong{
   }
 
   .filter-date .items:nth-child(2n) {
-    flex-basis: calc(calc(140% / 2) - 5px);
+    width: calc(70% - 5px);
   }
 
   .filter-date .items:last-child {
-    flex-basis: 100%;
+    width: 100%;
+  }
+
+  .filter-date .items:last-child button.btn-search {
+    width: 100%;
+    display: inline-block;
   }
 
   #chart5_mb .c3-axis-x-label,
@@ -660,9 +649,22 @@ input[type=file].file_record_add + label strong{
   margin-bottom: 10px;
 }
 
-/* .box-customer .financial-planning .financial-planning-list {
-  overflow-x: auto;
-} */
+.financial-planning-list::-webkit-scrollbar {
+  height: 8px;
+}
+
+.financial-planning-list::-webkit-scrollbar-track:horizontal {
+  background: transparent;
+}
+
+.financial-planning-list::-webkit-scrollbar-thumb:horizontal {
+  border-radius: 5px;
+  background-color: rgba(45, 93, 169, 0.5);
+}
+
+.financial-planning-list::-webkit-scrollbar-thumb:horizontal:hover {
+  background-color: rgba(45, 93, 169, 1);
+}
 
 .box-customer .financial-planning .financial-planning-list .wrap {
   display: flex;
@@ -835,10 +837,6 @@ input[type=file].file_record_add + label strong{
   #chart4_mb .c3-axis-x-label,
   #chart4_mb .c3-axis-y-label {
     font-size: 11px;
-  }
-
-  .box-customer .financial-planning .financial-planning-item {
-    margin-bottom: 15px;
   }
 
   .box-customer
